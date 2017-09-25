@@ -1,0 +1,127 @@
+
+/* changes in v.2.0*/
+@media (min-width: 481px) and (max-width: 767px){
+.dropdown-menu > li:hover,
+.dropdown-menu > li:focus {
+    background: #d6dadf url('../image/bg27.png') left top repeat;
+}
+.navbar .dropdown-menu, .navbar-nav  li ul{
+    background:#ffffff;
+}
+.navbar .children-menu li:hover,
+.navbar .children-menu li:focus{
+    background:#990033  url('../image/bg16.png') left top repeat;
+	width:100%;
+	color: #ffffff;
+}
+.navbar .children-menu li:hover a,
+.navbar .children-menu li:focus a{
+	width:100%;
+	color: #ffffff;
+}
+}
+@media (max-width: 480px){
+.dropdown-menu > li:hover,
+.dropdown-menu > li:focus {
+    background: #d6dadf url('../image/bg27.png') left top repeat;
+}
+.navbar .dropdown-menu, .navbar-nav  li ul{
+    background:#ffffff;
+}
+.navbar .children-menu li:hover,
+.navbar .children-menu li:focus{
+    background:#990033  url('../image/bg16.png') left top repeat;
+	width:100%;
+	color: #ffffff;
+}
+.navbar .children-menu li:hover a,
+.navbar .children-menu li:focus a{
+	width:100%;
+	color: #ffffff;
+}
+}
+#bs-example-navbar-collapse-2 > ul > li .dropdown-menu .dropdown-inner:hover a,
+#bs-example-navbar-collapse-2 > ul > li .dropdown-menu .dropdown-inner:focus a {
+    color:#d0d0d0;
+}
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.thumbnail {
+  padding-left:5px;
+  padding-right:5px;
+  margin:5px;
+}
+.caption .btn-default {
+	background: #cbd0d7 url('../image/button1.png') repeat;
+	background-position:0px 50px;
+}
+.caption .btn-default:hover,
+.caption .btn-default:active {
+	background: #aeb3b9 url('../image/button1.png') repeat;
+	background-position:0px 0px;
+}
+element.style {
+    height: 520px;
+    width: 490px;  
+}
+#header-bottom #cart .btn {
+    padding: 0px 0px;
+}
+
+/* changes in stylesheet.css v.2.05*/
+
+.thumbnail:hover,
+.thumbnail:focus,
+.thumbnail.active {
+  border-color: #d6dadf;
+
+}
