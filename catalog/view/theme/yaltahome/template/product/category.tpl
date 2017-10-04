@@ -12,7 +12,7 @@
 <?php if ($products) { ?>
 <div class="objects-list-block">
 
-<h3 class="main-objects-title"><?php echo $heading_title; ?></h3>
+<span class="main-objects-title"><?php echo $heading_title; ?></span>
 
 <ul class="objects-list">
 <div class="product-list">
@@ -30,6 +30,10 @@
 <?php if ($product['thumb']) { ?>  
 <a href="<?php echo $product['href']; ?>">
 <img src="<?php echo $product['thumb']; ?>" title="<?php echo $product['name']; ?>" alt="<?php echo $product['name']; ?>" />
+</a>
+<?php }else{ ?>
+<a href="<?php echo $product['href']; ?>">
+<img src="catalog/view/theme/yaltahome/images/object-list.jpg" alt="" />
 </a>
 <?php } ?>
 </div>
@@ -51,7 +55,7 @@
 </div>
 </ul>
 
-<?php echo $pagination; ?>
+<div class="pagination"><?php echo $pagination; ?></div>
 
 <div class="clear-both"></div>
 
@@ -60,7 +64,7 @@
 </div>
 <?php }else{ ?>
 <div class="objects-list-block">
-<h3 class="main-objects-title"><?php echo $heading_title; ?></h3>
+<span class="main-objects-title"><?php echo $heading_title; ?></span>
 <?php echo $text_empty; ?>
 </div>
 <?php } ?>

@@ -1,9 +1,9 @@
 $(document).ready(function() {
     /* Search */
-    $('input[type=\'submit\']').on('click', function() {
+    $('#search-button').on('click', function() {
         url = $('base').attr('href');
-
-        var search = $(this).attr('value');
+        
+        var search = $('input[name=\'search\']').attr('value');
         
         if (search) {
             url += 'search/?filter_name=' + encodeURIComponent(search);

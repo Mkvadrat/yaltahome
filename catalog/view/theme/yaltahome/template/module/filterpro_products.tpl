@@ -13,6 +13,10 @@
 							<a href="<?php echo $product['href']; ?>">
 							       <img src="<?php echo $product['thumb']; ?>" title="<?php echo $product['name']; ?>" alt="<?php echo $product['name']; ?>" />
 							</a>
+						<?php }else{ ?>
+							<a href="<?php echo $product['href']; ?>">
+								<img src="catalog/view/theme/yaltahome/images/object-list.jpg" alt="" />
+							</a>
 						<?php } ?>
 				</div>
 						<h5><?php echo $product['name']; ?></h5>

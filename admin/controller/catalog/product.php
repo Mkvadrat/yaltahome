@@ -1616,5 +1616,51 @@ class ControllerCatalogProduct extends Controller {
 
 		return $output;
 	}
+	
+	/*Сортировка по цене*/
+	public function getSync(){
+		
+		$this->load->model('catalog/product');
+		
+		$this->load->model('localisation/currency');	
+		
+		$full_value = $this->model_catalog_product->getProductCurency();
+		
+		foreach($full_value as $key => $value) {
+			$taken = array();
+			
+			$product_id = $value['product_id'];
+			
+			$price = $value['price'];
+			
+			$currency_id = $value['currency_id'];
+			
+			if($currency_id == 1){			
+						
+				$currency = $this->model_localisation_currency->getCurrency($currency_id);
+				$convert_price = $this->currency->convert($price, $currency['code'], 'USD');
+			
+				$taken[] = array(
+					'product_id' => $product_id,
+					'price'		 => $convert_price
+				);
+				
+				$int = $this->model_catalog_product->insertPrice($taken);	
+			}elseif($currency_id == 2){
+				
+				$currency = $this->model_localisation_currency->getCurrency($currency_id);
+				$convert_price = $this->currency->convert($price, $currency['code'], 'USD');
+			
+				$taken[] = array(
+					'product_id' => $product_id,
+					'price'		 => $convert_price
+				);
+				
+				$int = $this->model_catalog_product->insertPrice($taken);
+			}
+		}
+
+	}
+	/*Сортировка по цене*/
 }
 ?>

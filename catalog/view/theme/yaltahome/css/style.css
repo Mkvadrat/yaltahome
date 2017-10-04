@@ -143,7 +143,7 @@ label {
     .header .navbar-default address {
       overflow: hidden;
       float: left;
-      width: 240px; }
+      width: 255px; }
       .header .navbar-default address p {
         font-family: "Philosopher";
         font-size: 18px;
@@ -272,8 +272,8 @@ label {
     .header .header-main ul > li ul li:hover ul {
       display: block; }
     .header .header-main ul {
-      background-image: -webkit-linear-gradient(bottom, #086b77 0%, #0f8a9a 100%);
-      background-image: linear-gradient(to top, #086b77 0%, #0f8a9a 100%);
+      background-image: -moz-linear-gradient( 90deg, rgb(190,240,251) 0%, rgb(255,255,255) 100%); background-image: -webkit-linear-gradient( 90deg, rgb(190,240,251) 0%, rgb(255,255,255) 100%);
+background-image: -ms-linear-gradient( 90deg, rgb(190,240,251) 0%, rgb(255,255,255) 100%);
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -289,6 +289,9 @@ label {
         .header .header-main ul .dropdown-menu li {
           width: 100%; }
           .header .header-main ul .dropdown-menu li a {
+            text-align: left;
+            padding-left: 10px;
+            padding-right: 10px;
             border: none;
             color: #000;
             font-weight: 400;
@@ -320,7 +323,7 @@ label {
           font-size: 16px;
           font-weight: 700;
           line-height: 18px;
-          color: #fff;
+          color: #0c434d;
           padding: 9px 2px;
           border: 2px solid #1e525b;
           width: 100%;
@@ -331,8 +334,10 @@ label {
         .header .header-main ul li a:focus {
           background: transparent;
           text-decoration: underline;
-          background-image: -webkit-linear-gradient(bottom, #0f8a9a 0%, #086b77 100%);
-          background-image: linear-gradient(to top, #0f8a9a 0%, #086b77 100%); }
+          
+
+          background-image: -webkit-linear-gradient(bottom, #efefef 0%, #cbcbcb 100%);
+          background-image: linear-gradient(to top, #efefef 0%, #cbcbcb 100%) }
     .header .header-main ul li:first-child {
       border-left: 1px solid #46c2d7; }
       .header .header-main ul li:first-child .nav li {
@@ -476,7 +481,7 @@ body {
               display: inline-block;
               padding: 9px 6px;
               font-family: "Philosopher";
-              font-size: 14px;
+              font-size: 13px;
               font-weight: 700;
               line-height: 16px;
               color: #fff;
@@ -645,6 +650,7 @@ body {
         width: 100%;
         padding: 25px 20px 20px 20px; }
         .main .section-2 .section-2-blocks .urgent-object-block .h3-title {
+          display: block;
           position: relative;
           font-family: "Philosopher";
           font-size: 30px;
@@ -654,7 +660,7 @@ body {
           padding: 0px 0px 25px 30px; }
           .main .section-2 .section-2-blocks .urgent-object-block .h3-title span {
             color: #4eafc0; }
-        .main .section-2 .section-2-blocks .urgent-object-block h3:before {
+        .main .section-2 .section-2-blocks .urgent-object-block .h3-title:before {
           content: "";
           position: absolute;
           top: 7px;
@@ -939,7 +945,8 @@ body {
     #background-repeat: no-repeat;
     background-size: auto 100%;
     margin-right: 23px; }
-    .main-objects .search-block h3 {
+    .main-objects .search-block > span {
+      display: block;
       text-align: center;
       font-family: "Philosopher";
       font-size: 18px;
@@ -1104,8 +1111,7 @@ body {
             color: #4eafc0; }
   .main-objects .bread-crumbs-objects {
     float: right;
-    margin-top: 30px;
-    margin-bottom: 40px; }
+    margin: 30px 20px 40px 20px;}
     .main-objects .bread-crumbs-objects li {
       display: inline-block; }
       .main-objects .bread-crumbs-objects li a {
@@ -1120,7 +1126,8 @@ body {
         font-size: 14px;
         font-weight: 700;
         line-height: 18px;
-        color: #4eafc0; }
+        color: #4eafc0;
+        padding: 5px; }
   .main-objects .clear-both {
     clear: both; }
   .main-objects p {
@@ -1137,7 +1144,8 @@ body {
 .main-news-list,
 .main-news,
 .main-contacts {
-  background: #fff; }
+  background: #fff;
+  overflow: hidden; }
   .main-about .h4-title,
   .main-news-list .h4-title,
   .main-news .h4-title,
@@ -1416,8 +1424,7 @@ html[xmlns*=""] body:last-child .urgent-redemption {
 
 .main-news-list .bread-crumbs-objects {
   float: right;
-  margin-top: 30px;
-  margin-bottom: 40px;
+  margin: 30px 20px 40px 20px;
 }
 
 .main-news-list .bread-crumbs-objects li {
@@ -1439,13 +1446,13 @@ html[xmlns*=""] body:last-child .urgent-redemption {
   font-weight: 700;
   line-height: 18px;
   color: #4eafc0;
+  padding: 5px;
 }
 
 /**/
 .main-news .bread-crumbs-objects {
   float: right;
-  margin-top: 30px;
-  margin-bottom: 40px;
+  margin: 30px 20px 40px 20px;
 }
 
 .main-news .bread-crumbs-objects li {
@@ -1467,4 +1474,108 @@ html[xmlns*=""] body:last-child .urgent-redemption {
   font-weight: 700;
   line-height: 18px;
   color: #4eafc0;
+  padding: 5px;
+}
+
+.image,
+.colorbox {
+  margin-left: 20px;
+}
+
+.image img,
+.colorbox img {
+  width: 191px;
+  height: auto;
+}
+
+.article-content,
+.warning {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Philosopher";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
+}
+
+
+.not-found {
+  background: #fff;
+  overflow: hidden;
+}
+
+.not-found .breadcrumb {
+  padding: 30px 20px;
+  background: #fff;
+}
+
+.not-found .breadcrumb a {
+    font-family: "Philosopher";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #4eafc0;
+}
+
+.not-found h1 {
+  font-family: "Philosopher";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #0c434d;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.not-found .content {
+  font-family: "Philosopher";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
+  padding: 0px 20px 20px 20px;
+}
+
+.not-found .buttons .button {
+  float: right;
+  display: inline-block;
+  max-width: 130px;
+  width: auto;
+  font-family: "Philosopher";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #fff;
+  padding: 9px 2px;
+  border: 2px solid #1e525b;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  background-image: -webkit-linear-gradient(bottom, #0f8a9a 0%, #086b77 100%);
+  background-image: linear-gradient(to top, #0f8a9a 0%, #086b77 100%);
+  margin: 50px 20px 20px 20px;
+  text-decoration: none !important;
+}
+
+.not-found .buttons .button:hover {
+  background-image: -webkit-linear-gradient(bottom, #086b77 0%, #0f8a9a 100%);
+  background-image: linear-gradient(to top, #086b77 0%, #0f8a9a 100%);
+}
+
+.objects-list-block {
+  font-family: "Philosopher";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
+}
+
+.pagination {
+    display: inherit;
+    padding-left: 0;
+    margin: 0;
 }

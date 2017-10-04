@@ -4,7 +4,7 @@
             <div class="col-md-12">
                 <footer class="footer-main">
                     <div class="call-us">
-                        <h3 class="call-us-title">Позвоните нам!</h3>
+                        <span class="call-us-title">Позвоните нам!</span>
                         <p><a href="tel: <?php echo $tel; ?>"><?php echo $tel; ?></a></p>
                     </div>
 

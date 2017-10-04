@@ -52,6 +52,17 @@
 		<link rel="stylesheet" href="catalog/view/theme/yaltahome/css/slick.css">
 		<link rel="stylesheet" href="catalog/view/theme/yaltahome/css/slick-theme.css">
 		
+		<!--FAVICONS-->
+		<link rel="apple-touch-icon" sizes="180x180" href="catalog/view/theme/yaltahome/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="catalog/view/theme/yaltahome/favicons/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="catalog/view/theme/yaltahome/favicons/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="catalog/view/theme/yaltahome/favicons/manifest.json">
+		<link rel="mask-icon" href="catalog/view/theme/yaltahome/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="theme-color" content="#ffffff">
+		
+		<!-- COLORBOX -->
+		<link rel="stylesheet" href="catalog/view/javascript/jquery/colorbox/colorbox.css">
+
 				
 		<?php if ($icon) { ?>
     <link href="<?php echo $icon; ?>" rel="icon" />
@@ -144,7 +155,7 @@
                         <header class="header-main">
                             <div class="search-block" id="search">
 															<input type="search" name="search" placeholder="Поиск по №">
-															<input type="submit" value="Искать">
+															<input type="submit" id="search-button" value="Искать">
 														</div>
                             <ul>
                                 <li>

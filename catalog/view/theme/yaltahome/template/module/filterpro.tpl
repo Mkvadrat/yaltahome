@@ -1,6 +1,6 @@
 <?php if($tags || $categories || $options || $manufacturers || $attributes || $price_slider) { ?>
 <aside class="search-block">
-<h3><?php echo $heading_title; ?></h3>
+<span><?php echo $heading_title; ?></span>
 <div class="box-content">
 <section>
 <input type="text" class="search-fp" name="search" placeholder="12345678" value="" />

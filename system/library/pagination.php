@@ -10,7 +10,7 @@ class Pagination {
 	public $text_last = '&gt;|';
 	public $text_next = '&gt;';
 	public $text_prev = '&lt;';
-	public $style_links = 'bread-crumbs-objects';
+	public $style_links = 'links bread-crumbs-objects';
 	public $style_results = 'results';
 	 
 	public function render() {

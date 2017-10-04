@@ -313,7 +313,6 @@ class ControllerModuleHtmlBlock extends Controller {
 		
 		if (count($post)) {
 			
-			//$file_name = DIR_CATALOG . 'view/theme/' . $this->config->get('config_template') . '/stylesheet/html_block.css';
 			$file_name = DIR_CATALOG . 'view/theme/yaltahome/css/html_block.css';
 			
 			$css = '';

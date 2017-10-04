@@ -37,7 +37,7 @@ $i++;
 <!-- end header content -->
 
 <div class="col-md-8">
-<h3 class="h4-title">Написать нам</h3>
+<span class="h4-title">Написать нам</span>
 
 <form id="form" class="contacts-form" action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
 

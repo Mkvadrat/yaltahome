@@ -41,7 +41,7 @@ $i++;
 
 <p class="date"><?php echo $articles['date_added']; ?></p>
 
-<h3 class="h4-title news-title"><a href="<?php echo $articles['href']; ?>"><?php echo $articles['name']; ?></a></h3>
+<span class="h4-title news-title"><a href="<?php echo $articles['href']; ?>"><?php echo $articles['name']; ?></a></span>
 
 <p><?php echo $articles['description']; ?><span class="more-comment-block"><a class="more" href="<?php echo $articles['href']; ?>">Подробнее</a> <span class="comments"><?php if ($articles['acom']) { echo $text_comments; ?>: <?php echo $articles['total_comments']; } ?></span></span></p>
 </section>

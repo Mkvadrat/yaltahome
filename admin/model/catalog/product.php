@@ -767,6 +767,25 @@ class ModelCatalogProduct extends Model {
 		$query = $this->db->query("SELECT COUNT(*) AS total FROM " . DB_PREFIX . "product_to_layout WHERE layout_id = '" . (int)$layout_id . "'");
 
 		return $query->row['total'];
-	}			
+	}
+	
+	/*Сортировка по цене*/
+	public function getProductCurency() {
+		
+		$query = $this->db->query("SELECT product_id, price, currency_id FROM " . DB_PREFIX . "product WHERE status = '1'");
+		
+		return $query->rows;
+		
+	}
+		
+	public function insertPrice($array) {
+
+		foreach($array as $value){
+			
+			$this->db->query("UPDATE " . DB_PREFIX . "product SET sort_price = '" . (float)$value['price'] ."' WHERE product_id = '" . (int)$value['product_id'] . "'");
+
+		}
+	}
+	/*Сортировка по цене*/
 }
 ?>
