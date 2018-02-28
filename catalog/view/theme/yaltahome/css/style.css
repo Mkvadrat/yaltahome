@@ -1509,7 +1509,7 @@ html[xmlns*=""] body:last-child .urgent-redemption {
 /*----- 27.02.2018 -----*/
 .main-objects .search-block {
   float: none;
-  width: 100%;
+  width: 100.3%;
   margin-right: 0;
   background: url("../images/bg-search-block-2.jpg");
   background-size: cover;
