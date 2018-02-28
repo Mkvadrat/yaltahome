@@ -1,5 +1,5 @@
-<?php echo $header; ?><?php echo $column_right; ?>
-<div class="container-fluid bg-main"><?php echo $content_top; ?>
+<?php echo $header; ?><?php echo $content_top; ?>
+<div class="container-fluid bg-main"><?php echo $column_right; ?>
 
 <div class="container">
 <div class="row">
