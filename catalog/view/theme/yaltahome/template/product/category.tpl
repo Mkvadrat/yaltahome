@@ -9,6 +9,49 @@
 
 <?php echo $column_left; ?>
 
+<?php echo $top_description; ?>
+
+<?php if($maps){ ?>
+<p class="h2-title"><?php echo $text_maps;?></p>
+<!-- YANDEX MAPS -->
+<script src="http://api-maps.yandex.ru/2.0/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+<div class="map-block">
+    <div id="map-category" style="width:100%; height:300px"></div>
+    
+    <script type="text/javascript">
+        var myMap;
+        ymaps.ready(init);
+        
+        function init(){
+            var myCoords = [<?php echo $maps; ?>];  
+            var myGeocoder = ymaps.geocode(myCoords);
+            myGeocoder.then(
+            function (res){
+                var firstGeoObject = res.geoObjects.get(0),
+                myMap = new ymaps.Map
+                ("map-category",{
+                    center: firstGeoObject.geometry.getCoordinates(),
+                    zoom: 17
+                });
+                    var myPlacemark = new ymaps.Placemark(
+                    firstGeoObject.geometry.getCoordinates(),
+                {
+                    iconContent: ''
+                },
+                {
+                    preset: 'twirl#blueStretchyIcon'
+                });
+                    myMap.geoObjects.add(myPlacemark);
+                    myMap.controls.add(new ymaps.control.ZoomControl()).add(new ymaps.control.ScaleLine()).add('typeSelector');
+            },
+            function (err){
+                alert(err.message);
+            });
+        }
+    </script>
+</div>
+<?php } ?>
+
 <?php if ($products) { ?>
 <div class="objects-list-block">
 
