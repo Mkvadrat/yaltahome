@@ -129,7 +129,8 @@ label {
       margin: 5px 60px 55px 20px; }
       .header .navbar-default .navbar-brand img {
         position: relative;
-        z-index: 1; }
+        z-index: 1;
+        width: 100%; }
       .header .navbar-default .navbar-brand span {
         position: absolute;
         bottom: 0;
@@ -1135,7 +1136,12 @@ body {
     overflow: hidden; }
     .main-objects .objects-list li,
     .main-objects .objects-list-block li {
-      overflow: hidden; }
+      overflow: hidden;
+      font-family: "Philosopher";
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+color: #000;}
       .main-objects .objects-list li .object-box,
       .main-objects .objects-list-block li .object-box {
         position: relative;
@@ -1837,3 +1843,111 @@ html[xmlns*=""] body:last-child .urgent-redemption {
 .new-buildings-list li .description-block .info-block p:last-of-type a:hover {
   color: #4eafc0;
   text-decoration: underline; }
+
+
+
+
+
+
+
+/*----- 28.02.2018 -----*/
+
+
+
+
+.search-block {
+  background: url("../images/bg-search-block-2.jpg");
+}
+
+.search-block > span {
+  display: none;
+}
+
+.search-block .box-content {
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+.search-block .box-content > section {
+  width: 22%;
+  margin-right: 20px;
+}
+
+.main-objects .search-block form {
+  width: 75%;
+}
+
+.main-objects .search-block form section:nth-last-child(1) {
+  width: 35%;
+  margin-top: 1px;
+}
+
+.main-objects .search-block form section:nth-last-child(1) button:nth-child(2) {
+  margin-right: 5px;
+}
+
+.main-objects .search-block form section:nth-last-child(1) h4 {
+  display: none;
+}
+
+.main-objects .search-block form section:nth-last-child(2) {
+  width: 65%;
+}
+
+.main-objects .search-block form section:nth-last-child(2) h4 {
+  float: left;
+  margin-right: 15px;
+  padding-bottom: 0;
+}
+
+.main-objects .search-block form section:nth-last-child(2) div {
+  float: left;
+}
+
+.main-objects .search-block form section:nth-last-child(2) div input {
+  margin-left: 5px;
+}
+
+.main-objects .search-block form section:nth-last-child(2) div:nth-last-child(2) input {
+  margin-right: 10px;
+}
+
+.main-objects .search-block form section:nth-last-child(2) h4 input {
+  position: relative;
+  top: 1px;
+  margin-left: 5px;
+}
+
+.main-objects h1,
+.main-objects h2,
+.main-objects h3 {
+  font-family: "Philosopher";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #0c434d;
+  padding-bottom: 10px;
+}
+
+.main-apartment .slider-block .slick-slide .label-object {
+  position: absolute;
+  width: auto;
+  right: 0;
+  top: 30px;
+}
+
+.main-objects .main-objects-title {
+  display: block;
+}
+
+.main .bread-crumbs {
+    font-family: "Philosopher";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #000;
+}
