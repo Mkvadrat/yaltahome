@@ -37,7 +37,7 @@
 </a>
 <?php } ?>
 </div>
-<h5><?php echo $product['name']; ?></h5>
+<p class="title-list"><?php echo $product['name']; ?></p>
 <p><?php echo $product['description']; ?></p>
 <p>
 

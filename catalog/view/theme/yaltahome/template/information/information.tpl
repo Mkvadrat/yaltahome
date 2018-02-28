@@ -34,6 +34,11 @@ $i++;
 
 <?php echo $description; ?>
 
+<ul class="list-documents">
+	<li><a class="fancybox" href="catalog/view/theme/yaltahome/images/inn.jpg"><img src="catalog/view/theme/yaltahome/images/inn.jpg" alt=""><span>ИИН</span></a></li>
+	<li><a class="fancybox" href="catalog/view/theme/yaltahome/images/ip.jpg"><img src="catalog/view/theme/yaltahome/images/ip.jpg" alt=""><span>ИП</span></a></li>
+</ul>
+
 <p class="continue-block"><a class="continue" href="<?php echo $continue; ?>">Продолжить</a></p>
 
 </div>

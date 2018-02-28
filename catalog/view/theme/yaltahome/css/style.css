@@ -109,11 +109,12 @@ label {
     .header .navbar-default .navbar-brand {
       position: relative;
       display: block;
-      width: 173px;
+      width: 215px;
       height: 88px;
       padding: 0;
       margin: 5px 60px 55px 20px; }
       .header .navbar-default .navbar-brand img {
+        width: 100%;
         position: relative;
         z-index: 1; }
       .header .navbar-default .navbar-brand span {
@@ -150,7 +151,7 @@ label {
         font-weight: 700;
         line-height: 20px;
         color: #fff;
-        margin: 13px 0 10px; }
+        margin: 35px 0 10px; }
       .header .navbar-default address a {
         font-family: "Philosopher";
         font-size: 24px;
@@ -451,10 +452,10 @@ body {
           padding: 34px 10px 17px 20px; }
           .main .section-1 .section-1-blocks li aside .h3-title {
             font-family: "Philosopher";
-            font-size: 18px;
+            font-size: 14px;
             font-weight: 700;
-            line-height: 20px;
-            color: #0c434d;
+            line-height: 18px;
+            color: #1f525b;
             text-transform: uppercase;
             padding-bottom: 15px;
             margin-bottom: 10px;
@@ -505,17 +506,17 @@ body {
           .main .section-1 .section-1-blocks li .welcome-block .h3-title {
             position: relative;
             font-family: "Philosopher";
-            font-size: 30px;
+            font-size: 14px;
             font-weight: 700;
-            line-height: 32px;
-            color: #0c434d;
+            line-height: 18px;
+            color: #1f525b;
             padding: 0px 0px 25px 30px; }
             .main .section-1 .section-1-blocks li .welcome-block .h3-title span {
               color: #4eafc0; }
           .main .section-1 .section-1-blocks li .welcome-block h3:before {
             content: "";
             position: absolute;
-            top: 7px;
+            top: -1px;
             left: 0px;
             background-image: url(../images/sprite.png);
             background-repeat: no-repeat;
@@ -620,10 +621,10 @@ body {
           padding: 34px 10px 17px 20px; }
           .main .section-2 .section-2-blocks li aside .h3-title {
             font-family: "Philosopher";
-            font-size: 18px;
+            font-size: 14px;
             font-weight: 700;
-            line-height: 20px;
-            color: #0c434d;
+            line-height: 18px;
+            color: #1f525b;
             text-transform: uppercase;
             padding-bottom: 15px;
             margin-bottom: 10px;
@@ -653,17 +654,17 @@ body {
           display: block;
           position: relative;
           font-family: "Philosopher";
-          font-size: 30px;
+          font-size: 14px;
           font-weight: 700;
           line-height: 32px;
-          color: #0c434d;
+          color: #1f525b;
           padding: 0px 0px 25px 30px; }
           .main .section-2 .section-2-blocks .urgent-object-block .h3-title span {
             color: #4eafc0; }
         .main .section-2 .section-2-blocks .urgent-object-block .h3-title:before {
           content: "";
           position: absolute;
-          top: 7px;
+          top: 0px;
           left: 0px;
           background-image: url(../images/sprite.png);
           background-repeat: no-repeat;
@@ -816,10 +817,10 @@ body {
     margin-right: 20px; }
     .main-apartment .right-sidebar h2 {
       font-family: "Philosopher";
-      font-size: 24px;
+      font-size: 16px;
       font-weight: 700;
-      line-height: 28px;
-      color: #0c434d;
+      line-height: 20px;
+      color: #1f525b;
       padding-bottom: 8px; }
     .main-apartment .right-sidebar .price {
       margin-bottom: 20px;
@@ -1071,13 +1072,14 @@ body {
           position: absolute;
           top: 8px;
           right: 1px; }
-      .main-objects .objects-list li h5,
-      .main-objects .objects-list-block li h5 {
+      .main-objects .objects-list li .title-list,
+      .main-objects .objects-list-block li .title-list {
         font-family: "Philosopher";
         font-size: 18px;
         font-weight: 700;
         line-height: 22px;
-        color: #061f24; }
+        color: #1f525b;
+        padding-bottom: 0; }
       .main-objects .objects-list li p,
       .main-objects .objects-list-block li p {
         font-family: "Philosopher";
@@ -1349,7 +1351,7 @@ body {
   padding: 15px 0; }
   .footer address {
     float: left;
-    width: 120px;
+    width: 220px;
     margin-left: 20px;
     margin-top: -9px; }
     .footer address p {
@@ -1518,12 +1520,31 @@ html[xmlns*=""] body:last-child .urgent-redemption {
     color: #4eafc0;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Philosopher";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #1f525b;
+  text-transform: uppercase;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 13px;
+}
+
 .not-found h1 {
   font-family: "Philosopher";
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 34px;
-  color: #0c434d;
+  line-height: 22px;
+  color: #1f525b;
   text-transform: uppercase;
   margin-left: 20px;
   margin-bottom: 50px;
@@ -1578,4 +1599,108 @@ html[xmlns*=""] body:last-child .urgent-redemption {
     display: inherit;
     padding-left: 0;
     margin: 0;
+}
+
+.main-objects .main-objects-title {
+	display: block;
+}
+
+.main-objects ul:not([class]),
+main ul:not([class]) {
+	padding-left: 5px;
+  padding-bottom: 20px;
+}
+
+.main-objects ul:not([class]) li,
+main ul:not([class]) li {
+	position: relative;
+	padding-left: 10px;
+  font-family: "Philosopher";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #000;
+}
+
+.main-objects ul:not([class]) li::before,
+main ul:not([class]) li::before {
+	content: "";
+	position: absolute;
+	top: 9px;
+	left: 0;
+	display: block;
+	width: 4px;
+	height: 4px;
+	-webkit-border-radius: 50%;
+	  border-radius: 50%;
+	background: #1e525b;
+}
+
+main h1:not([class]),
+main h2:not([class]),
+main h3:not([class]) {
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+main p:not([class]) {
+  padding-bottom: 20px;
+}
+
+.thumbnail .label-object {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 51px !important;
+}
+
+.list-documents {
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+.list-documents li {
+  margin: 20px;
+}
+
+.list-documents li a {
+  display: block;
+  outline: none !important;
+}
+
+.list-documents li a span {
+  display: block;
+  padding-top: 15px;
+  font-family: "Philosopher";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #0c434d;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.list-documents li a img {
+  width: 200px;
+  display: block;
+  border: 1px solid #46c2d7;
+}
+
+.title-main {
+  font-family: "Philosopher" !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: 20px !important;
+  color: #0c434d !important;
+  text-transform: uppercase !important;
+  padding-bottom: 5px !important;
+}
+
+.main .section-1 .section-1-blocks li .welcome-block .h3-title.title-main {
+  padding-bottom: 10px !important;
+}
+
+.main .section-1 .section-1-blocks li .welcome-block .h3-title.title-main::before {
+  top: 0px;
 }

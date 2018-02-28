@@ -1,4 +1,8 @@
 $(document).ready(function() {
+
+	// FancyBox
+	$(".fancybox").fancybox();
+	
     /* Search */
     $('#search-button').on('click', function() {
         url = $('base').attr('href');

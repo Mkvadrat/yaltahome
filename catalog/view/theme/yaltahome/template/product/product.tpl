@@ -75,7 +75,18 @@ $i++;
 <div class="slider-for">
 <?php foreach ($images as $image) { ?>
 <div>
-<a class="thumbnail colorbox" href="<?php echo $image['orig']; ?>" title="<?php echo $heading_title; ?>"  onclick="return false;"><img class="img-target <?php if($i==1){echo 'active';}?>" id="img<?php echo $i; ?>" src="<?php echo $image['full']; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
+<a class="thumbnail colorbox" href="<?php echo $image['orig']; ?>" title="<?php echo $heading_title; ?>"  onclick="return false;">
+
+    <?php if($badge == 2){ ?>
+    <img class="label-object" src="catalog/view/theme/yaltahome/images/label-new.png" alt="">
+    <?php }elseif($badge == 3){ ?>
+    <img class="label-object" src="catalog/view/theme/yaltahome/images/label-urgently.png" alt="">
+    <?php }elseif($badge == 4){ ?>
+    <img class="label-object" src="catalog/view/theme/yaltahome/images/label-sale.png" alt="">
+    <?php } ?>
+    
+	<img class="img-target <?php if($i==1){echo 'active';}?>" id="img<?php echo $i; ?>" src="<?php echo $image['full']; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" />
+</a>
 </div>
 <?php $i++; ?>
 <?php } ?>

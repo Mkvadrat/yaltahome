@@ -432,7 +432,13 @@ class ControllerProductProduct extends Controller {
 
 			}
 
+			$this->data['badge'] = $product_info['upc'];
 			
+			if($product_info['upc']){
+				$badge = $product_info['upc'];
+			}else{
+				$badge = '';
+			}
 
 			if ($product_info['quantity'] <= 0) {
 

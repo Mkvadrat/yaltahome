@@ -51,6 +51,10 @@
 		<script src="catalog/view/theme/yaltahome/js/slick.min.js"></script>
 		<link rel="stylesheet" href="catalog/view/theme/yaltahome/css/slick.css">
 		<link rel="stylesheet" href="catalog/view/theme/yaltahome/css/slick-theme.css">
+
+        <!-- FANCYBOX -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
 		
 		<!--FAVICONS-->
 		<link rel="apple-touch-icon" sizes="180x180" href="catalog/view/theme/yaltahome/favicons/apple-touch-icon.png">

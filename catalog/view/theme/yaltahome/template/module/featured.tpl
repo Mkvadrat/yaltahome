@@ -43,7 +43,7 @@
                                 </li>
                                 <li>
                                     <div class="urgent-object-block">
-                                       <span class="h3-title">Срочная <span>продажа</span></span>
+                                       <span class="h3-title title-main">Срочная <span>продажа</span></span>
 
                                        <div class="last-add">
                                             <h4 class="h4-title">последнее <span>добавленное</span></h4>
