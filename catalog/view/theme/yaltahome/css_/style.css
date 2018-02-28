@@ -35,14 +35,6 @@ label {
   label span {
     display: block; }
 
-.h2-title, .main-objects .h2-title {
-  font-family: "Philosopher";
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 28px;
-  color: #0c434d;
-  padding-bottom: 10px; }
-
 .h4-title {
   font-family: "Philosopher";
   font-size: 18px;
@@ -70,18 +62,14 @@ label {
   width: 100%;
   text-align: center;
   outline: none;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#0f8a9a), to(#086b77));
   background-image: -webkit-linear-gradient(bottom, #0f8a9a 0%, #086b77 100%);
-  background-image: -o-linear-gradient(bottom, #0f8a9a 0%, #086b77 100%);
   background-image: linear-gradient(to top, #0f8a9a 0%, #086b77 100%);
   margin-bottom: 20px;
   text-decoration: none !important; }
 
 .continue:hover {
   color: #fff;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#086b77), to(#0f8a9a));
   background-image: -webkit-linear-gradient(bottom, #086b77 0%, #0f8a9a 100%);
-  background-image: -o-linear-gradient(bottom, #086b77 0%, #0f8a9a 100%);
   background-image: linear-gradient(to top, #086b77 0%, #0f8a9a 100%); }
 
 .more-comment-block {
@@ -102,16 +90,14 @@ label {
 /*----------- start header -------------*/
 .header {
   background: url(../images/bg-header.jpg) center top #0e808f no-repeat scroll;
-  background-size: auto 100%;
+  background-size: auto 100%
   /*----------- start header main -------------*/
   /*----------- end header main -------------*/ }
   .header .top-border-line {
     height: 100%;
     height: 14px;
     background-color: #0c6f7b;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(8, 107, 119, 0.49)), to(rgba(15, 138, 154, 0.49)));
     background-image: -webkit-linear-gradient(bottom, rgba(8, 107, 119, 0.49) 0%, rgba(15, 138, 154, 0.49) 100%);
-    background-image: -o-linear-gradient(bottom, rgba(8, 107, 119, 0.49) 0%, rgba(15, 138, 154, 0.49) 100%);
     background-image: linear-gradient(to top, rgba(8, 107, 119, 0.49) 0%, rgba(15, 138, 154, 0.49) 100%); }
   .header .navbar-default {
     background-color: transparent !important;
@@ -123,11 +109,12 @@ label {
     .header .navbar-default .navbar-brand {
       position: relative;
       display: block;
-      width: 173px;
+      width: 215px;
       height: 88px;
       padding: 0;
       margin: 5px 60px 55px 20px; }
       .header .navbar-default .navbar-brand img {
+        width: 100%;
         position: relative;
         z-index: 1; }
       .header .navbar-default .navbar-brand span {
@@ -150,27 +137,21 @@ label {
       background-color: #0c434d;
       color: #fff;
       -webkit-transition: 0.5s;
-      -moz-transition: 0.5s;
-      -ms-transition: 0.5s;
-      -o-transition: 0.5s;
       transition: 0.5s; }
     .header .navbar-default .navbar-brand:not(:hover) span {
       -webkit-transition: 0.5s;
-      -moz-transition: 0.5s;
-      -ms-transition: 0.5s;
-      -o-transition: 0.5s;
       transition: 0.5s; }
     .header .navbar-default address {
       overflow: hidden;
       float: left;
-      width: 240px; }
+      width: 255px; }
       .header .navbar-default address p {
         font-family: "Philosopher";
         font-size: 18px;
         font-weight: 700;
         line-height: 20px;
         color: #fff;
-        margin: 13px 0 10px; }
+        margin: 35px 0 10px; }
       .header .navbar-default address a {
         font-family: "Philosopher";
         font-size: 24px;
@@ -193,7 +174,6 @@ label {
       color: #fff;
       text-transform: uppercase;
       border-right: 2px solid #1e525b;
-      -webkit-box-shadow: 1px -1px 0px 0px #46c2d7;
       box-shadow: 1px -1px 0px 0px #46c2d7; }
     .header .navbar-default .navbar-nav > li > a:before {
       content: '';
@@ -214,20 +194,14 @@ label {
       height: 1px;
       width: 100%;
       background-color: #000;
-      background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(8, 107, 119, 0.49)), to(rgba(15, 138, 154, 0.49)));
       background-image: -webkit-linear-gradient(bottom, rgba(8, 107, 119, 0.49) 0%, rgba(15, 138, 154, 0.49) 100%);
-      background-image: -o-linear-gradient(bottom, rgba(8, 107, 119, 0.49) 0%, rgba(15, 138, 154, 0.49) 100%);
       background-image: linear-gradient(to top, rgba(8, 107, 119, 0.49) 0%, rgba(15, 138, 154, 0.49) 100%); }
     .header .navbar-default .navbar-nav > .dropdown.open .line {
       -webkit-transition: 0.5s;
-      -moz-transition: 0.5s;
-      -ms-transition: 0.5s;
-      -o-transition: 0.5s;
       transition: 0.5s;
       height: 106px !important; }
     .header .navbar-default .navbar-nav:first-child > li {
       border-left: 2px solid #1e525b;
-      -webkit-box-shadow: -1px -1px 0px 0px #46c2d7;
       box-shadow: -1px -1px 0px 0px #46c2d7; }
     .header .navbar-default .navbar-nav > li > a:hover {
       text-decoration: underline; }
@@ -236,15 +210,9 @@ label {
       background: rgba(14, 130, 145, 0.7) !important;
       color: #FFF;
       -webkit-transition: 0.5s;
-      -moz-transition: 0.5s;
-      -ms-transition: 0.5s;
-      -o-transition: 0.5s;
       transition: 0.5s; }
     .header .navbar-default .navbar-nav > li > a:not(:hover) {
       -webkit-transition: 0.5s;
-      -moz-transition: 0.5s;
-      -ms-transition: 0.5s;
-      -o-transition: 0.5s;
       transition: 0.5s; }
     .header .navbar-default .caret {
       display: none; }
@@ -256,10 +224,9 @@ label {
       width: 204px;
       height: 34px;
       border: 2px solid #1e525b;
-      -webkit-box-shadow: 0 2px 3px rgba(4, 22, 34, 0.61);
       box-shadow: 0 2px 3px rgba(4, 22, 34, 0.61);
       float: left;
-      margin: 2px 3px;
+      margin: 2px 3px
       /* FF 4-18 */
       /* FF 19+ */ }
       .header .header-main .search-block input[type="search"] {
@@ -289,12 +256,9 @@ label {
         width: 85px;
         height: 32px;
         background-color: white;
-        background-image: -webkit-gradient(linear, left bottom, left top, from(#e00e0e), to(#f67676));
         background-image: -webkit-linear-gradient(bottom, #e00e0e 0%, #f67676 100%);
-        background-image: -o-linear-gradient(bottom, #e00e0e 0%, #f67676 100%);
         background-image: linear-gradient(to top, #e00e0e 0%, #f67676 100%);
         border-radius: 3px;
-        -webkit-box-shadow: inset 0 0 16px rgba(255, 255, 255, 0.35);
         box-shadow: inset 0 0 16px rgba(255, 255, 255, 0.35);
         border: none;
         cursor: pointer;
@@ -304,39 +268,38 @@ label {
         line-height: 16px;
         color: #fff; }
       .header .header-main .search-block input[type="submit"]:hover {
-        background-image: -webkit-gradient(linear, left bottom, left top, from(#f67676), to(#e00e0e));
         background-image: -webkit-linear-gradient(bottom, #f67676 0%, #e00e0e 100%);
-        background-image: -o-linear-gradient(bottom, #f67676 0%, #e00e0e 100%);
         background-image: linear-gradient(to top, #f67676 0%, #e00e0e 100%); }
     .header .header-main ul > li ul li:hover ul {
       display: block; }
     .header .header-main ul {
-      background-image: -webkit-gradient(linear, left bottom, left top, from(#086b77), to(#0f8a9a));
-      background-image: -webkit-linear-gradient(bottom, #086b77 0%, #0f8a9a 100%);
-      background-image: -o-linear-gradient(bottom, #086b77 0%, #0f8a9a 100%);
-      background-image: linear-gradient(to top, #086b77 0%, #0f8a9a 100%);
+      background-image: -moz-linear-gradient( 90deg, rgb(190,240,251) 0%, rgb(255,255,255) 100%); background-image: -webkit-linear-gradient( 90deg, rgb(190,240,251) 0%, rgb(255,255,255) 100%);
+background-image: -ms-linear-gradient( 90deg, rgb(190,240,251) 0%, rgb(255,255,255) 100%);
       display: -webkit-box;
+      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex; }
       .header .header-main ul .dropdown-menu {
         -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-        flex-grow: 1;
+        -webkit-flex-grow: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1;
         display: block;
         display: none;
         background: #fff; }
         .header .header-main ul .dropdown-menu li {
           width: 100%; }
           .header .header-main ul .dropdown-menu li a {
+            text-align: left;
+            padding-left: 10px;
+            padding-right: 10px;
             border: none;
             color: #000;
             font-weight: 400;
             text-transform: none; }
           .header .header-main ul .dropdown-menu li a:hover,
           .header .header-main ul .dropdown-menu li a:focus {
-            background-image: -webkit-gradient(linear, left bottom, left top, from(#cbcbcb), to(#efefef));
             background-image: -webkit-linear-gradient(bottom, #cbcbcb 0%, #efefef 100%);
-            background-image: -o-linear-gradient(bottom, #cbcbcb 0%, #efefef 100%);
             background-image: linear-gradient(to top, #cbcbcb 0%, #efefef 100%); }
       .header .header-main ul .open .dropdown-menu {
         display: block !important; }
@@ -345,9 +308,7 @@ label {
       .header .header-main ul .nav .open > a {
         background: transparent;
         text-decoration: underline;
-        background-image: -webkit-gradient(linear, left bottom, left top, from(#0f8a9a), to(#086b77));
         background-image: -webkit-linear-gradient(bottom, #0f8a9a 0%, #086b77 100%);
-        background-image: -o-linear-gradient(bottom, #0f8a9a 0%, #086b77 100%);
         background-image: linear-gradient(to top, #0f8a9a 0%, #086b77 100%); }
       .header .header-main ul li {
         display: inline-block;
@@ -355,15 +316,15 @@ label {
         border-right: 1px solid #46c2d7;
         -webkit-flex-grow: 1;
         -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-        flex-grow: 1; }
+            -ms-flex-positive: 1;
+                flex-grow: 1; }
         .header .header-main ul li a {
           display: block;
           font-family: "Philosopher";
           font-size: 16px;
           font-weight: 700;
           line-height: 18px;
-          color: #fff;
+          color: #0c434d;
           padding: 9px 2px;
           border: 2px solid #1e525b;
           width: 100%;
@@ -374,10 +335,10 @@ label {
         .header .header-main ul li a:focus {
           background: transparent;
           text-decoration: underline;
-          background-image: -webkit-gradient(linear, left bottom, left top, from(#0f8a9a), to(#086b77));
-          background-image: -webkit-linear-gradient(bottom, #0f8a9a 0%, #086b77 100%);
-          background-image: -o-linear-gradient(bottom, #0f8a9a 0%, #086b77 100%);
-          background-image: linear-gradient(to top, #0f8a9a 0%, #086b77 100%); }
+          
+
+          background-image: -webkit-linear-gradient(bottom, #efefef 0%, #cbcbcb 100%);
+          background-image: linear-gradient(to top, #efefef 0%, #cbcbcb 100%) }
     .header .header-main ul li:first-child {
       border-left: 1px solid #46c2d7; }
       .header .header-main ul li:first-child .nav li {
@@ -453,14 +414,14 @@ body {
       height: 16px;
       background-position: -4px -5px;
       -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-      transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+              transform: rotate(90deg);
       float: left;
       margin-left: 10px !important; }
     .main .owl-carousel .owl-buttons .owl-next {
       -webkit-transform: rotate(270deg);
-      -ms-transform: rotate(270deg);
-      transform: rotate(270deg);
+          -ms-transform: rotate(270deg);
+              transform: rotate(270deg);
       float: right;
       margin-right: 10px !important; }
   .main .section-1 {
@@ -468,6 +429,7 @@ body {
     .main .section-1 .section-1-blocks {
       border: 2px solid #4eafc0;
       display: -webkit-box;
+      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-flex-wrap: wrap;
@@ -477,21 +439,23 @@ body {
       -ms-flex-direction: row;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
-      flex-direction: row; }
+              flex-direction: row; }
       .main .section-1 .section-1-blocks li {
         display: -webkit-box;
+        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        -ms-flex-preferred-size: 690px;
-        flex-basis: 690px; }
+        -webkit-flex-basis: 690px;
+            -ms-flex-preferred-size: 690px;
+                flex-basis: 690px; }
         .main .section-1 .section-1-blocks li aside {
           padding: 34px 10px 17px 20px; }
           .main .section-1 .section-1-blocks li aside .h3-title {
             font-family: "Philosopher";
-            font-size: 18px;
+            font-size: 14px;
             font-weight: 700;
-            line-height: 20px;
-            color: #0c434d;
+            line-height: 18px;
+            color: #1f525b;
             text-transform: uppercase;
             padding-bottom: 15px;
             margin-bottom: 10px;
@@ -518,18 +482,15 @@ body {
               display: inline-block;
               padding: 9px 6px;
               font-family: "Philosopher";
-              font-size: 14px;
+              font-size: 13px;
               font-weight: 700;
               line-height: 16px;
               color: #fff;
               text-align: center;
               background-color: white;
-              background-image: -webkit-gradient(linear, left bottom, left top, from(#e00e0e), to(#f67676));
               background-image: -webkit-linear-gradient(bottom, #e00e0e 0%, #f67676 100%);
-              background-image: -o-linear-gradient(bottom, #e00e0e 0%, #f67676 100%);
               background-image: linear-gradient(to top, #e00e0e 0%, #f67676 100%);
               border-radius: 5px;
-              -webkit-box-shadow: inset 0 0 16px rgba(255, 255, 255, 0.35);
               box-shadow: inset 0 0 16px rgba(255, 255, 255, 0.35);
               margin-right: 5px;
               text-decoration: none;
@@ -537,9 +498,7 @@ body {
             .main .section-1 .section-1-blocks li aside p .urgent-redemption {
               margin-right: 0px; }
             .main .section-1 .section-1-blocks li aside p a:hover {
-              background-image: -webkit-gradient(linear, left bottom, left top, from(#f67676), to(#e00e0e));
               background-image: -webkit-linear-gradient(bottom, #f67676 0%, #e00e0e 100%);
-              background-image: -o-linear-gradient(bottom, #f67676 0%, #e00e0e 100%);
               background-image: linear-gradient(to top, #f67676 0%, #e00e0e 100%); }
         .main .section-1 .section-1-blocks li .welcome-block {
           width: 100%;
@@ -547,17 +506,17 @@ body {
           .main .section-1 .section-1-blocks li .welcome-block .h3-title {
             position: relative;
             font-family: "Philosopher";
-            font-size: 30px;
+            font-size: 14px;
             font-weight: 700;
-            line-height: 32px;
-            color: #0c434d;
+            line-height: 18px;
+            color: #1f525b;
             padding: 0px 0px 25px 30px; }
             .main .section-1 .section-1-blocks li .welcome-block .h3-title span {
               color: #4eafc0; }
           .main .section-1 .section-1-blocks li .welcome-block h3:before {
             content: "";
             position: absolute;
-            top: 7px;
+            top: -1px;
             left: 0px;
             background-image: url(../images/sprite.png);
             background-repeat: no-repeat;
@@ -591,6 +550,7 @@ body {
               padding-bottom: 12px; }
           .main .section-1 .section-1-blocks li .welcome-block .region-has-list {
             display: -webkit-box;
+            display: -webkit-flex;
             display: -ms-flexbox;
             display: flex;
             -webkit-flex-wrap: wrap;
@@ -600,11 +560,12 @@ body {
             list-style-type: disc; }
             .main .section-1 .section-1-blocks li .welcome-block .region-has-list li {
               display: -webkit-box;
+              display: -webkit-flex;
               display: -ms-flexbox;
               display: flex;
               -webkit-flex-basis: 50%;
               -ms-flex-preferred-size: 50%;
-              flex-basis: 50%;
+                  flex-basis: 50%;
               padding-left: 10px;
               font-family: "Philosopher";
               font-size: 12px;
@@ -622,20 +583,14 @@ body {
             .main .section-1 .section-1-blocks li .welcome-block .region-has-list li:hover {
               padding-left: 15px;
               -webkit-transition: 0.5s;
-              -moz-transition: 0.5s;
-              -ms-transition: 0.5s;
-              -o-transition: 0.5s;
               transition: 0.5s; }
             .main .section-1 .section-1-blocks li .welcome-block .region-has-list li:not(:hover) {
               -webkit-transition: 0.5s;
-              -moz-transition: 0.5s;
-              -ms-transition: 0.5s;
-              -o-transition: 0.5s;
               transition: 0.5s; }
     .main .section-1 .section-1-blocks .border-right {
       -webkit-flex-basis: 280px;
       -ms-flex-preferred-size: 280px;
-      flex-basis: 280px;
+          flex-basis: 280px;
       border-right: 2px solid #4eafc0; }
   .main .section-2 {
     background: #fff; }
@@ -643,6 +598,7 @@ body {
       border: 2px solid #4eafc0;
       border-top: none;
       display: -webkit-box;
+      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-flex-wrap: wrap;
@@ -652,21 +608,23 @@ body {
       -ms-flex-direction: row;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
-      flex-direction: row; }
+              flex-direction: row; }
       .main .section-2 .section-2-blocks li {
         display: -webkit-box;
+        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        -ms-flex-preferred-size: 690px;
-        flex-basis: 690px; }
+        -webkit-flex-basis: 690px;
+            -ms-flex-preferred-size: 690px;
+                flex-basis: 690px; }
         .main .section-2 .section-2-blocks li aside {
           padding: 34px 10px 17px 20px; }
           .main .section-2 .section-2-blocks li aside .h3-title {
             font-family: "Philosopher";
-            font-size: 18px;
+            font-size: 14px;
             font-weight: 700;
-            line-height: 20px;
-            color: #0c434d;
+            line-height: 18px;
+            color: #1f525b;
             text-transform: uppercase;
             padding-bottom: 15px;
             margin-bottom: 10px;
@@ -693,19 +651,20 @@ body {
         width: 100%;
         padding: 25px 20px 20px 20px; }
         .main .section-2 .section-2-blocks .urgent-object-block .h3-title {
+          display: block;
           position: relative;
           font-family: "Philosopher";
-          font-size: 30px;
+          font-size: 14px;
           font-weight: 700;
           line-height: 32px;
-          color: #0c434d;
+          color: #1f525b;
           padding: 0px 0px 25px 30px; }
           .main .section-2 .section-2-blocks .urgent-object-block .h3-title span {
             color: #4eafc0; }
-        .main .section-2 .section-2-blocks .urgent-object-block h3:before {
+        .main .section-2 .section-2-blocks .urgent-object-block .h3-title:before {
           content: "";
           position: absolute;
-          top: 7px;
+          top: 0px;
           left: 0px;
           background-image: url(../images/sprite.png);
           background-repeat: no-repeat;
@@ -736,7 +695,6 @@ body {
             z-index: 10;
             width: 221px;
             height: 189px;
-            -webkit-border-radius: 5px;
             border-radius: 5px;
             overflow: hidden; }
             .main .section-2 .section-2-blocks .urgent-object-block .last-add .wrapper-block a {
@@ -768,28 +726,16 @@ body {
               left: 0;
               opacity: 0.9;
               -webkit-transition: 1s;
-              -moz-transition: 1s;
-              -ms-transition: 1s;
-              -o-transition: 1s;
               transition: 1s; }
             .main .section-2 .section-2-blocks .urgent-object-block .last-add .wrapper-block a:not(:hover) img {
               -webkit-transition: 1s;
-              -moz-transition: 1s;
-              -ms-transition: 1s;
-              -o-transition: 1s;
               transition: 1s; }
             .main .section-2 .section-2-blocks .urgent-object-block .last-add .wrapper-block a:hover .sale-title {
               bottom: 30px;
               -webkit-transition: 0.5s;
-              -moz-transition: 0.5s;
-              -ms-transition: 0.5s;
-              -o-transition: 0.5s;
               transition: 0.5s; }
             .main .section-2 .section-2-blocks .urgent-object-block .last-add .wrapper-block a:not(:hover) .sale-title {
               -webkit-transition: 0.5s;
-              -moz-transition: 0.5s;
-              -ms-transition: 0.5s;
-              -o-transition: 0.5s;
               transition: 0.5s; }
         .main .section-2 .section-2-blocks .urgent-object-block .urgent-object-list {
           width: 410px; }
@@ -811,15 +757,9 @@ body {
             .main .section-2 .section-2-blocks .urgent-object-block .urgent-object-list li p a:hover img {
               opacity: 0.9;
               -webkit-transition: 0.5s;
-              -moz-transition: 0.5s;
-              -ms-transition: 0.5s;
-              -o-transition: 0.5s;
               transition: 0.5s; }
             .main .section-2 .section-2-blocks .urgent-object-block .urgent-object-list li p a:not(:hover) img {
               -webkit-transition: 0.5s;
-              -moz-transition: 0.5s;
-              -ms-transition: 0.5s;
-              -o-transition: 0.5s;
               transition: 0.5s; }
         .main .section-2 .section-2-blocks .urgent-object-block .h4-title {
           font-family: "Philosopher";
@@ -841,7 +781,7 @@ body {
     .main .section-2 .section-2-blocks .border-right {
       -webkit-flex-basis: 280px;
       -ms-flex-preferred-size: 280px;
-      flex-basis: 280px;
+          flex-basis: 280px;
       border-right: 2px solid #4eafc0; }
   .main .bread-crumbs {
     padding: 30px 20px; }
@@ -877,10 +817,10 @@ body {
     margin-right: 20px; }
     .main-apartment .right-sidebar h2 {
       font-family: "Philosopher";
-      font-size: 24px;
+      font-size: 16px;
       font-weight: 700;
-      line-height: 28px;
-      color: #0c434d;
+      line-height: 20px;
+      color: #1f525b;
       padding-bottom: 8px; }
     .main-apartment .right-sidebar .price {
       margin-bottom: 20px;
@@ -901,7 +841,6 @@ body {
       background-color: #f1fcfe; }
       .main-apartment .right-sidebar address img {
         padding-bottom: 40px;
-        -webkit-border-radius: 5px;
         border-radius: 5px; }
       .main-apartment .right-sidebar address p {
         font-family: "Philosopher";
@@ -946,12 +885,9 @@ body {
       background-repeat: no-repeat;
       width: 18px;
       height: 18px;
-      -webkit-border-radius: 50%;
       border-radius: 50%;
       -webkit-transform: rotate(90deg);
-      -moz-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
-      -o-transform: rotate(90deg);
       transform: rotate(90deg);
       background-position: -2px -4px;
       margin-top: -16px;
@@ -960,9 +896,7 @@ body {
       left: 5px; }
     .main-apartment .slider-block .slick-next {
       -webkit-transform: rotate(275deg);
-      -moz-transform: rotate(275deg);
       -ms-transform: rotate(275deg);
-      -o-transform: rotate(275deg);
       transform: rotate(275deg);
       right: 5px; }
   .main-apartment .tabs-block {
@@ -980,12 +914,9 @@ body {
         margin: 25px; }
     .main-apartment .tabs-block .nav-tabs li a {
       background-color: white;
-      background-image: -webkit-gradient(linear, left bottom, left top, from(#1f7188), to(#4eafc0));
       background-image: -webkit-linear-gradient(bottom, #1f7188 0%, #4eafc0 100%);
-      background-image: -o-linear-gradient(bottom, #1f7188 0%, #4eafc0 100%);
       background-image: linear-gradient(to top, #1f7188 0%, #4eafc0 100%);
       border-radius: 5px 5px 0px 0px;
-      -webkit-box-shadow: inset 0 0 16px rgba(255, 255, 255, 0.35);
       box-shadow: inset 0 0 16px rgba(255, 255, 255, 0.35);
       font-family: "Philosopher";
       font-size: 14px;
@@ -1003,7 +934,7 @@ body {
 /*----------- start main-objects -------------*/
 .main-objects {
   padding: 20px;
-  background: #fff;
+  background: #fff
   /*----- end search-block -----*/
   /*----- end search-block -----*/
   /*----- start search-block -----*/
@@ -1012,10 +943,11 @@ body {
     float: left;
     width: 260px;
     background: url("../images/bg-search-block.jpg");
-    background-repeat: no-repeat;
+    #background-repeat: no-repeat;
     background-size: auto 100%;
     margin-right: 23px; }
-    .main-objects .search-block h3 {
+    .main-objects .search-block > span {
+      display: block;
       text-align: center;
       font-family: "Philosopher";
       font-size: 18px;
@@ -1025,7 +957,6 @@ body {
       padding: 15px 0; }
     .main-objects .search-block section {
       border-top: 2px solid #4eafc0;
-      -webkit-box-shadow: 0px -1px 0px 0px #1f7188;
       box-shadow: 0px -1px 0px 0px #1f7188;
       display: block;
       padding: 8px 14px; }
@@ -1040,22 +971,15 @@ body {
       .main-objects .search-block section input:focus::-webkit-input-placeholder {
         opacity: 0;
         -webkit-transition: opacity 0.3s ease;
-        -o-transition: opacity 0.3s ease;
-        transition: opacity 0.3s ease; }
+                transition: opacity 0.3s ease; }
       .main-objects .search-block section input:focus::-moz-placeholder {
         opacity: 0;
-        -webkit-transition: opacity 0.3s ease;
-        -o-transition: opacity 0.3s ease;
         transition: opacity 0.3s ease; }
       .main-objects .search-block section input:focus:-moz-placeholder {
         opacity: 0;
-        -webkit-transition: opacity 0.3s ease;
-        -o-transition: opacity 0.3s ease;
         transition: opacity 0.3s ease; }
       .main-objects .search-block section input:focus:-ms-input-placeholder {
         opacity: 0;
-        -webkit-transition: opacity 0.3s ease;
-        -o-transition: opacity 0.3s ease;
         transition: opacity 0.3s ease; }
       .main-objects .search-block section input[type="text"] {
         width: 119px;
@@ -1073,7 +997,7 @@ body {
         float: right;
         margin-bottom: 5px; }
       .main-objects .search-block section label {
-        display: block; }
+        display: inline-block; }
       .main-objects .search-block section h4 {
         font-family: "Philosopher";
         font-size: 18px;
@@ -1085,12 +1009,9 @@ body {
         display: inline;
         padding: 9px;
         background-color: white;
-        background-image: -webkit-gradient(linear, left bottom, left top, from(#1f7188), to(#4eafc0));
         background-image: -webkit-linear-gradient(bottom, #1f7188 0%, #4eafc0 100%);
-        background-image: -o-linear-gradient(bottom, #1f7188 0%, #4eafc0 100%);
         background-image: linear-gradient(to top, #1f7188 0%, #4eafc0 100%);
         border-radius: 5px;
-        -webkit-box-shadow: inset 0 0 16px rgba(255, 255, 255, 0.35);
         box-shadow: inset 0 0 16px rgba(255, 255, 255, 0.35);
         font-family: "Philosopher";
         font-size: 14px;
@@ -1100,26 +1021,24 @@ body {
         border: none;
         margin-bottom: 10px; }
       .main-objects .search-block section button:hover {
-        background-image: -webkit-gradient(linear, left bottom, left top, from(#4eafc0), to(#1f7188));
         background-image: -webkit-linear-gradient(bottom, #4eafc0 0%, #1f7188 100%);
-        background-image: -o-linear-gradient(bottom, #4eafc0 0%, #1f7188 100%);
         background-image: linear-gradient(to top, #4eafc0 0%, #1f7188 100%); }
       .main-objects .search-block section button:last-child {
         margin-left: 4px; }
-    .main-objects .search-block section:nth-child(2) input {
+    .main-objects .search-block section input {
       padding-bottom: 10px; }
-    .main-objects .search-block section:nth-child(3) label,
-    .main-objects .search-block section:nth-child(4) label {
+    .main-objects .search-block section label,
+    .main-objects .search-block section label {
       margin-bottom: 5px; }
-    .main-objects .search-block section:nth-child(4) h4 input[type="radio"],
-    .main-objects .search-block section:nth-child(4) h4 label {
+    .main-objects .search-block section h4 input[type="radio"],
+    .main-objects .search-block section h4 label {
       display: inline; }
-    .main-objects .search-block section:nth-child(4) input[type="radio"] {
+    .main-objects .search-block section input[type="radio"] {
       position: relative;
       top: 2px; }
-    .main-objects .search-block section:nth-child(4) h4 span {
+    .main-objects .search-block section h4 span {
       padding-right: 41px; }
-    .main-objects .search-block section:nth-child(4) h4 label {
+    .main-objects .search-block section h4 label {
       padding-right: 10px; }
   .main-objects .main-objects-title {
     padding-top: 5px;
@@ -1132,7 +1051,9 @@ body {
     padding-bottom: 15px; }
   .main-objects .objects-list,
   .main-objects .objects-list-block {
-    overflow: hidden; }
+    overflow: hidden;
+    min-height: 435px;
+    }
     .main-objects .objects-list li,
     .main-objects .objects-list-block li {
       overflow: hidden; }
@@ -1144,7 +1065,6 @@ body {
         float: left;
         margin-right: 15px;
         margin-bottom: 20px;
-        -webkit-border-radius: 5px;
         border-radius: 5px;
         overflow: hidden; }
         .main-objects .objects-list li .object-box .label-object,
@@ -1152,13 +1072,14 @@ body {
           position: absolute;
           top: 8px;
           right: 1px; }
-      .main-objects .objects-list li h5,
-      .main-objects .objects-list-block li h5 {
+      .main-objects .objects-list li .title-list,
+      .main-objects .objects-list-block li .title-list {
         font-family: "Philosopher";
         font-size: 18px;
         font-weight: 700;
         line-height: 22px;
-        color: #061f24; }
+        color: #1f525b;
+        padding-bottom: 0; }
       .main-objects .objects-list li p,
       .main-objects .objects-list-block li p {
         font-family: "Philosopher";
@@ -1192,8 +1113,7 @@ body {
             color: #4eafc0; }
   .main-objects .bread-crumbs-objects {
     float: right;
-    margin-top: 30px;
-    margin-bottom: 40px; }
+    margin: 30px 20px 40px 20px;}
     .main-objects .bread-crumbs-objects li {
       display: inline-block; }
       .main-objects .bread-crumbs-objects li a {
@@ -1208,7 +1128,8 @@ body {
         font-size: 14px;
         font-weight: 700;
         line-height: 18px;
-        color: #4eafc0; }
+        color: #4eafc0;
+        padding: 5px; }
   .main-objects .clear-both {
     clear: both; }
   .main-objects p {
@@ -1225,7 +1146,8 @@ body {
 .main-news-list,
 .main-news,
 .main-contacts {
-  background: #fff; }
+  background: #fff;
+  overflow: hidden; }
   .main-about .h4-title,
   .main-news-list .h4-title,
   .main-news .h4-title,
@@ -1270,7 +1192,6 @@ body {
     padding: 5px;
     width: 200px;
     height: 30px;
-    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
     font-family: "Philosopher";
     font-size: 14px;
@@ -1284,7 +1205,6 @@ body {
     padding: 5px;
     width: 100%;
     height: 200px;
-    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
     font-family: "Philosopher";
     font-size: 14px;
@@ -1299,15 +1219,17 @@ body {
 .main-contacts .contacts-list {
   overflow: hidden;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
   padding: 20px;
   -webkit-justify-content: space-between;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
   .main-contacts .contacts-list li {
     width: 50%;
     margin: 0 auto 40px; }
@@ -1326,14 +1248,11 @@ body {
     .main-contacts .contacts-list p a[href*="tel"],
     .main-contacts .contacts-list p a[href*="skype"] {
       color: #000; }
-
 .main-contacts .contacts-list li:only-child {
   width: 55%; }
-
 .main-contacts p a[href*="tel"],
 .main-contacts p a[href*="skype"] {
   color: #000; }
-
 .main-contacts .contacts-form {
   margin-right: 20px;
   margin-bottom: 40px; }
@@ -1345,7 +1264,6 @@ body {
     padding: 5px;
     width: 200px;
     height: 30px;
-    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
     font-family: "Philosopher";
     font-size: 14px;
@@ -1359,7 +1277,6 @@ body {
     padding: 5px;
     width: 100%;
     height: 200px;
-    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
     font-family: "Philosopher";
     font-size: 14px;
@@ -1367,7 +1284,9 @@ body {
     line-height: 20px;
     color: #3e4651;
     border: 1px solid #efefef;
-    resize: none; }
+    resize: none;
+    margin-bottom: 20px;
+  }
 
 /*----------- end main-contacts -------------*/
 /*----------- start footer -------------*/
@@ -1432,7 +1351,7 @@ body {
   padding: 15px 0; }
   .footer address {
     float: left;
-    width: 120px;
+    width: 220px;
     margin-left: 20px;
     margin-top: -9px; }
     .footer address p {
@@ -1493,347 +1412,295 @@ body {
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   .urgent-redemption {
     margin-right: 0px !important; } }
-
 body:last-child:not(:root:root) .urgent-redemption {
   margin-right: 0px !important; }
 
 html[xmlns*=""] body:last-child .urgent-redemption {
   margin-right: 0px !important; }
 
-/*----- 27.02.2018 -----*/
-.main-objects .search-block {
-  float: none;
-  width: 100%;
-  margin-right: 0;
-  background: url("../images/bg-search-block-2.jpg");
-  background-size: cover;
-  background-position: center;
-  padding: 10px 20px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  margin-bottom: 20px; }
+/*# sourceMappingURL=style.css.map */
 
-.main-objects .search-block form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: space-between;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
+.thumb{
+  min-height: 500px;
+}
 
-.main-objects .search-block section {
-  border: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  padding: 0; }
+.main-news-list .bread-crumbs-objects {
+  float: right;
+  margin: 30px 20px 40px 20px;
+}
 
-.main-objects .search-block section:nth-child(1) {
-  width: 22%; }
+.main-news-list .bread-crumbs-objects li {
+  display: inline-block;
+}
 
-.main-objects .search-block section:nth-child(2) {
-  width: 48%; }
-
-.main-objects .search-block section:nth-child(3) {
-  width: 27%; }
-
-.main-objects .search-block section label,
-.main-objects .search-block section h4,
-.main-objects .search-block section:nth-child(2) > div {
-  display: inline-block; }
-
-.main-objects .search-block section:nth-child(2) h4 {
-  margin-right: 15px;
-  padding-bottom: 0; }
-
-.main-objects .search-block section:nth-child(2) h4 input {
-  position: relative;
-  top: 2px;
-  margin: 0;
-  margin-left: 10px; }
-
-.main-objects .search-block section:nth-child(2) h4 input:hover {
-  cursor: pointer; }
-
-.main-objects .search-block section:nth-child(2) > div label {
-  margin-right: 5px; }
-
-.main-objects .search-block section:nth-child(2) > div:nth-child(2) {
-  margin-right: 10px; }
-
-.main-objects .search-block section input[type="text"],
-.main-objects .search-block section:nth-child(2) div input {
-  width: 90px;
-  margin-bottom: 0; }
-
-.main-objects .search-block section button {
-  margin-bottom: 0;
-  padding: 6px 9px; }
-
-.main-objects .photo-short-description {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
-
-.main-objects .photo-short-description .photo-block {
-  width: 70%;
-  padding-right: 15px; }
-
-.main-objects .photo-short-description .photo-block .photo {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 10px; }
-
-.main-objects .photo-short-description .photo-block .photo .label {
-  display: block;
-  position: absolute;
-  top: 15px;
-  right: 0;
-  width: 70px;
-  height: 25px;
-  border-radius: 3px 0px 0px 3px;
-  padding: 0;
-  background-image: url(../images/label-done.png);
-  background-repeat: no-repeat; }
-
-.main-objects .photo-short-description .description-object {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: space-between;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
-
-.main-objects .photo-short-description .description-object li {
-  width: 33%;
-  padding-bottom: 20px;
-  font-family: "Philosopher"; }
-
-.main-objects .photo-short-description .description-object li .title {
-  padding-bottom: 5px;
-  color: #061f24;
-  font-size: 18px;
+.main-news-list .bread-crumbs-objects li a {
+  font-family: "Philosopher";
+  font-size: 14px;
   font-weight: 700;
-  line-height: 18px; }
+  line-height: 18px;
+  color: #061f24;
+  padding: 5px;
+}
 
-.main-objects .photo-short-description .description-object li span {
-  display: block;
+.main-news-list .bread-crumbs-objects li span {
+  font-family: "Philosopher";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
   color: #4eafc0;
+  padding: 5px;
+}
+
+/**/
+.main-news .bread-crumbs-objects {
+  float: right;
+  margin: 30px 20px 40px 20px;
+}
+
+.main-news .bread-crumbs-objects li {
+  display: inline-block;
+}
+
+.main-news .bread-crumbs-objects li a {
+  font-family: "Philosopher";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #061f24;
+  padding: 5px;
+}
+
+.main-news .bread-crumbs-objects li span {
+  font-family: "Philosopher";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #4eafc0;
+  padding: 5px;
+}
+
+.image,
+.colorbox {
+  margin-left: 20px;
+}
+
+.image img,
+.colorbox img {
+  width: 191px;
+  height: auto;
+}
+
+.article-content,
+.warning {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Philosopher";
   font-size: 14px;
   font-weight: 400;
-  line-height: 18px; }
+  line-height: 20px;
+  color: #000;
+}
 
-.main-objects .photo-short-description .description-block {
-  width: 30%; }
 
-.main-objects .photo-short-description .description-block .title {
-  padding-bottom: 10px;
-  color: #0c434d;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 24px; }
+.not-found {
+  background: #fff;
+  overflow: hidden;
+}
 
-.main-objects .photo-short-description .description-block .price-block {
-  padding: 10px 15px;
-  margin-bottom: 10px;
-  border: 1px solid #46c2d7; }
+.not-found .breadcrumb {
+  padding: 30px 20px;
+  background: #fff;
+}
 
-.main-objects .photo-short-description .description-block .price-block .total-price {
-  line-height: 24px;
-  text-transform: uppercase;
-  color: #061f24;
+.not-found .breadcrumb a {
+    font-family: "Philosopher";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #4eafc0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Philosopher";
   font-size: 18px;
   font-weight: 700;
-  padding-bottom: 5px; }
-
-.main-objects .photo-short-description .description-block .price-block .total-price span,
-.main-objects .photo-short-description .description-block .price-block .meter-price span {
-  display: inline-block;
-  color: #4eafc0; }
-
-.main-objects .photo-short-description .description-block .price-block .meter-price {
-  font-size: 12px;
-  line-height: 18px;
+  line-height: 22px;
+  color: #1f525b;
   text-transform: uppercase;
-  color: #061f24;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 13px;
+}
+
+.not-found h1 {
+  font-family: "Philosopher";
+  font-size: 18px;
   font-weight: 700;
-  padding-bottom: 0; }
+  line-height: 22px;
+  color: #1f525b;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
 
-.main-objects .photo-short-description .description-block .price-block .meter-price span {
-  font-size: 16px; }
-
-.main-objects .photo-short-description .description-block p:not([class]) {
-  padding-bottom: 10px;
-  color: black;
+.not-found .content {
+  font-family: "Philosopher";
   font-size: 14px;
-  font-weight: 400; }
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
+  padding: 0px 20px 20px 20px;
+}
 
-.main-objects .photo-short-description .description-block p:not([class]) span {
+.not-found .buttons .button {
   float: right;
   display: inline-block;
-  color: #4eafc0; }
-
-.main-objects .photo-short-description .description-block .info-block {
-  padding-bottom: 10px;
-  margin-bottom: 10px; }
-
-.main-objects .photo-short-description .description-block .info-block-border {
-  border-bottom: 1px solid #d8d8d8; }
-
-.main-objects .photo-short-description .description-block .info-block p {
-  padding-bottom: 0; }
-
-.main-objects .photo-short-description .description-block .developer {
-  padding-bottom: 10px;
-  color: black;
-  font-weight: 400;
-  line-height: 18px;
-  font-size: 18px; }
-
-.main-objects .photo-short-description .description-block .developer span {
-  display: block;
-  font-size: 14px; }
-
-.main-objects .full-description {
-  padding: 20px;
-  margin-bottom: 20px;
-  border: 1px solid #46c2d7; }
-
-.main-objects .full-description p {
-  padding-bottom: 20px;
-  color: black;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px; }
-
-.main-objects .full-description p:last-of-type {
-  padding-bottom: 0; }
-
-.main-objects .map-block {
-  margin-bottom: 20px;
-  border: 1px solid #46c2d7; }
-
-.new-buildings-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: flex-start;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  padding-bottom: 15px; }
-
-.new-buildings-list li {
-  border: 1px solid #d8d8d8;
-  border-radius: 5px;
-  width: 32.5%;
-  margin-bottom: 11px;
-  margin-right: 11px; }
-
-.new-buildings-list li:nth-child(3n) {
-  margin-right: 0; }
-
-.new-buildings-list li .photo {
-  position: relative;
-  width: 100%;
-  height: 200px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 10px; }
-
-.new-buildings-list li .label {
-  display: block;
-  position: absolute;
-  top: 15px;
-  right: 0;
-  width: 70px;
-  height: 25px;
-  border-radius: 3px 0px 0px 3px;
-  padding: 0;
-  background-image: url(../images/label-done.png);
-  background-repeat: no-repeat; }
-
-.new-buildings-list li .title-build {
-  padding: 0 10px 0px 10px;
-  color: #061f24;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 26px; }
-
-.new-buildings-list li .description-block {
-  padding: 10px; }
-
-.new-buildings-list li .description-block .price-block .total-price {
-  line-height: 24px;
-  color: #061f24;
-  font-size: 18px;
-  font-weight: 700;
-  padding-bottom: 0px; }
-
-.new-buildings-list li .description-block .price-block .total-price span,
-.new-buildings-list li .description-block .price-block .meter-price span {
-  display: inline-block;
-  color: #4eafc0; }
-
-.new-buildings-list li .description-block .price-block .meter-price {
+  max-width: 130px;
+  width: auto;
+  font-family: "Philosopher";
   font-size: 16px;
-  line-height: 18px;
-  color: #061f24;
   font-weight: 700;
-  padding-bottom: 0; }
+  line-height: 18px;
+  color: #fff;
+  padding: 9px 2px;
+  border: 2px solid #1e525b;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  background-image: -webkit-linear-gradient(bottom, #0f8a9a 0%, #086b77 100%);
+  background-image: linear-gradient(to top, #0f8a9a 0%, #086b77 100%);
+  margin: 50px 20px 20px 20px;
+  text-decoration: none !important;
+}
 
-.new-buildings-list li .description-block .price-block .meter-price span {
-  font-size: 16px; }
+.not-found .buttons .button:hover {
+  background-image: -webkit-linear-gradient(bottom, #086b77 0%, #0f8a9a 100%);
+  background-image: linear-gradient(to top, #086b77 0%, #0f8a9a 100%);
+}
 
-.new-buildings-list li .description-block p:not([class]) {
-  padding-bottom: 10px;
-  color: black;
+.objects-list-block {
+  font-family: "Philosopher";
   font-size: 14px;
-  font-weight: 400; }
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
+}
 
-.new-buildings-list li .description-block p:not([class]) span {
-  float: right;
-  display: inline-block;
-  color: #4eafc0; }
+.pagination {
+    display: inherit;
+    padding-left: 0;
+    margin: 0;
+}
 
-.new-buildings-list li .description-block .info-block p {
-  padding-bottom: 0; }
+.main-objects .main-objects-title {
+	display: block;
+}
 
-.new-buildings-list li .description-block .info-block p:last-of-type {
-  padding-top: 10px;
-  padding-bottom: 5px; }
+.main-objects ul:not([class]),
+main ul:not([class]) {
+	padding-left: 5px;
+  padding-bottom: 20px;
+}
 
-.new-buildings-list li .description-block .info-block p:last-of-type a {
-  color: #4eafc0; }
+.main-objects ul:not([class]) li,
+main ul:not([class]) li {
+	position: relative;
+	padding-left: 10px;
+  font-family: "Philosopher";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #000;
+}
 
-.new-buildings-list li .description-block .info-block p:last-of-type a:hover {
-  color: #4eafc0;
-  text-decoration: underline; }
+.main-objects ul:not([class]) li::before,
+main ul:not([class]) li::before {
+	content: "";
+	position: absolute;
+	top: 9px;
+	left: 0;
+	display: block;
+	width: 4px;
+	height: 4px;
+	-webkit-border-radius: 50%;
+	  border-radius: 50%;
+	background: #1e525b;
+}
+
+main h1:not([class]),
+main h2:not([class]),
+main h3:not([class]) {
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+main p:not([class]) {
+  padding-bottom: 20px;
+}
+
+.thumbnail .label-object {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 51px !important;
+}
+
+.list-documents {
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+.list-documents li {
+  margin: 20px;
+}
+
+.list-documents li a {
+  display: block;
+  outline: none !important;
+}
+
+.list-documents li a span {
+  display: block;
+  padding-top: 15px;
+  font-family: "Philosopher";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #0c434d;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.list-documents li a img {
+  width: 200px;
+  display: block;
+  border: 1px solid #46c2d7;
+}
+
+.title-main {
+  font-family: "Philosopher" !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: 20px !important;
+  color: #0c434d !important;
+  text-transform: uppercase !important;
+  padding-bottom: 5px !important;
+}
+
+.main .section-1 .section-1-blocks li .welcome-block .h3-title.title-main {
+  padding-bottom: 10px !important;
+}
+
+.main .section-1 .section-1-blocks li .welcome-block .h3-title.title-main::before {
+  top: 0px;
+}
