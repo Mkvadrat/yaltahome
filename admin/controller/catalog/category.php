@@ -154,8 +154,10 @@ class ControllerCatalogCategory extends Controller {
 		$this->data['entry_name'] = $this->language->get('entry_name');
 		$this->data['entry_meta_keyword'] = $this->language->get('entry_meta_keyword');
 		$this->data['entry_meta_description'] = $this->language->get('entry_meta_description');
+		$this->data['entry_top_description'] = $this->language->get('entry_top_description');
 		$this->data['entry_description'] = $this->language->get('entry_description');
 		$this->data['entry_store'] = $this->language->get('entry_store');
+		$this->data['entry_maps'] = $this->language->get('entry_maps');
 		$this->data['entry_keyword'] = $this->language->get('entry_keyword');
 		$this->data['entry_parent'] = $this->language->get('entry_parent');
 		$this->data['entry_image'] = $this->language->get('entry_image');
@@ -260,12 +262,21 @@ class ControllerCatalogCategory extends Controller {
 		}
 
         $this->data['parent_type'] = $this->data['category_description'][1]['parent_type'];
+		
 		if (isset($this->request->post['keyword'])) {
 			$this->data['keyword'] = $this->request->post['keyword'];
 		} elseif (!empty($category_info)) {
 			$this->data['keyword'] = $category_info['keyword'];
 		} else {
 			$this->data['keyword'] = '';
+		}
+		
+		if (isset($this->request->post['maps'])) {
+			$this->data['maps'] = $this->request->post['maps'];
+		} elseif (!empty($category_info)) {
+			$this->data['maps'] = $category_info['maps'];
+		} else {
+			$this->data['maps'] = '';
 		}
 
 		if (isset($this->request->post['image'])) {

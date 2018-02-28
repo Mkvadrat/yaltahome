@@ -49,6 +49,10 @@
                 <td><?php echo $entry_meta_description; ?></td>
                 <td><textarea name="category_description[<?php echo $language['language_id']; ?>][meta_description]" cols="100" rows="2"><?php echo isset($category_description[$language['language_id']]) ? $category_description[$language['language_id']]['meta_description'] : ''; ?></textarea></td>
               </tr>
+							<tr>
+                <td><?php echo $entry_top_description; ?></td>
+                <td><textarea name="category_description[<?php echo $language['language_id']; ?>][top_description]" id="description-top<?php echo $language['language_id']; ?>"><?php echo isset($category_description[$language['language_id']]) ? $category_description[$language['language_id']]['top_description'] : ''; ?></textarea></td>
+              </tr>
               <tr>
                 <td><?php echo $entry_description; ?></td>
                 <td><textarea name="category_description[<?php echo $language['language_id']; ?>][description]" id="description<?php echo $language['language_id']; ?>"><?php echo isset($category_description[$language['language_id']]) ? $category_description[$language['language_id']]['description'] : ''; ?></textarea></td>
@@ -108,22 +112,25 @@
                           <option value="0" <?php if ($parent_type==0){echo "selected";}?>>Нет</option>
                           <option value="1" <?php if ($parent_type==1){echo "selected";}?>>Да</option>
                       </select>
-
-
                   </td>
               </tr>
             <tr>
               <td><?php echo $entry_keyword; ?></td>
               <td><input type="text" name="keyword" value="<?php echo $keyword; ?>" /></td>
-			  <td><?php echo $info_keyword; ?></td>
+							<td><?php echo $info_keyword; ?></td>
             </tr>
-            <tr>
+						<tr>
+              <td><?php echo $entry_maps; ?></td>
+              <td><input type="text" name="maps" value="<?php echo $maps; ?>" /></td>
+							<td></td>
+            </tr>
+            <!--<tr>
               <td><?php echo $entry_image; ?></td>
               <td valign="top"><div class="image"><img src="<?php echo $thumb; ?>" alt="" id="thumb" />
                 <input type="hidden" name="image" value="<?php echo $image; ?>" id="image" />
                 <br /><a onclick="image_upload('image', 'thumb');"><?php echo $text_browse; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('#thumb').attr('src', '<?php echo $no_image; ?>'); $('#image').attr('value', '');"><?php echo $text_clear; ?></a></div></td>
               <td><?php echo $info_image; ?></td>
-			</tr>
+						</tr>-->
             <tr>
               <td><?php echo $entry_top; ?></td>
               <td><?php if ($top) { ?>
@@ -207,6 +214,14 @@
 <script type="text/javascript" src="view/javascript/ckeditor/ckeditor.js"></script> 
 <script type="text/javascript"><!--
 <?php foreach ($languages as $language) { ?>
+CKEDITOR.replace('description-top<?php echo $language['language_id']; ?>', {
+	filebrowserBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
+	filebrowserImageBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
+	filebrowserFlashBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
+	filebrowserUploadUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
+	filebrowserImageUploadUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
+	filebrowserFlashUploadUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>'
+});
 CKEDITOR.replace('description<?php echo $language['language_id']; ?>', {
 	filebrowserBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
 	filebrowserImageBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
