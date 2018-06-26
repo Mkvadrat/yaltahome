@@ -164,7 +164,7 @@ label {
     .header .navbar-default address {
       overflow: hidden;
       float: left;
-      width: 240px; }
+      width: 250px; }
       .header .navbar-default address p {
         font-family: "Philosopher";
         font-size: 18px;
@@ -695,6 +695,7 @@ body {
         padding: 25px 20px 20px 20px; }
         .main .section-2 .section-2-blocks .urgent-object-block .h3-title {
           position: relative;
+          display: block;
           font-family: "Philosopher";
           font-size: 30px;
           font-weight: 700;
@@ -703,7 +704,7 @@ body {
           padding: 0px 0px 25px 30px; }
           .main .section-2 .section-2-blocks .urgent-object-block .h3-title span {
             color: #4eafc0; }
-        .main .section-2 .section-2-blocks .urgent-object-block h3:before {
+        .main .section-2 .section-2-blocks .urgent-object-block .h3-title:before {
           content: "";
           position: absolute;
           top: 7px;
@@ -1069,7 +1070,7 @@ body {
         line-height: 18px;
         color: #a9a9a9;
         border: none;
-        padding: 5px 13px !important;
+        padding: 5px 10px !important;
         display: block;
         float: right;
         margin-bottom: 5px; }
@@ -1156,8 +1157,8 @@ color: #000;}
         .main-objects .objects-list li .object-box .label-object,
         .main-objects .objects-list-block li .object-box .label-object {
           position: absolute;
-          top: 8px;
-          right: 1px; }
+          top: 0px;
+          left: 0px; }
       .main-objects .objects-list li h5,
       .main-objects .objects-list-block li h5 {
         font-family: "Philosopher";
@@ -1259,7 +1260,20 @@ color: #000;}
     .main-contacts p img {
       width: 100%;
       padding-top: 20px; }
-
+.list-documents li {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+.list-documents li a {
+  text-align: center;
+}
+.list-documents li a img {
+  width: 100%;
+}
+.list-documents li a span {
+  display: block;
+}
 /*----------- end main-about -------------*/
 /*----------- start main-news -------------*/
 .main-news article section img {
@@ -1316,7 +1330,7 @@ color: #000;}
   justify-content: space-between; }
   .main-contacts .contacts-list li {
     width: 50%;
-    margin: 0 auto 40px; }
+    margin: 0 0 40px; }
   .main-contacts .contacts-list .portrait-block {
     float: left;
     width: 135px !important;
@@ -1334,15 +1348,20 @@ color: #000;}
       color: #000; }
 
 .main-contacts .contacts-list li:only-child {
-  width: 55%; }
+  width: 55%;
+  margin: 0; }
 
 .main-contacts p a[href*="tel"],
 .main-contacts p a[href*="skype"] {
   color: #000; }
 
 .main-contacts .contacts-form {
-  margin-right: 20px;
+  /* margin-right: 20px; */
   margin-bottom: 40px; }
+  .main-contacts .form-block {
+    width: 200px;
+    display: inline-block;
+    float: left;}
   .main-contacts .contacts-form label,
   .main-contacts .contacts-form input {
     display: block; }
@@ -1374,7 +1393,25 @@ color: #000;}
     color: #3e4651;
     border: 1px solid #efefef;
     resize: none; }
-
+.main-contacts .contacts-map {
+  display: inline-block;
+  float: right;
+  width: 400px;
+  height: 420px;
+  margin: 0 20px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+.main-contacts .contacts-map>div {
+  position: absolute;
+  margin-top: 20px;
+  width: 100%;
+  height: 340px;
+}
+.main-contacts .contacts-map .h4-title,
+.main-contacts .form-block .h4-title {
+  padding-left: 0;
+}
 /*----------- end main-contacts -------------*/
 /*----------- start footer -------------*/
 .footer-main {
@@ -1459,7 +1496,7 @@ color: #000;}
     position: relative;
     padding-right: 40px;
     margin-right: 20px;
-    margin-top: -5px; }
+    margin-top: 5px; }
     .footer .make-in-M2 a {
       display: block;
       padding: 5px 0;
@@ -1471,7 +1508,7 @@ color: #000;}
     .footer .make-in-M2 a:before {
       content: "";
       position: absolute;
-      top: 3px;
+      top: -2px;
       right: 0px;
       background-image: url(../images/sprite.png);
       background-repeat: no-repeat;
@@ -1479,8 +1516,8 @@ color: #000;}
       height: 30px;
       background-position: -64px -5px; }
   .footer p {
-    text-align: center;
-    padding: 6px 0; }
+    text-align: left;
+    padding: 0; }
     .footer p small {
       font-family: "Philosopher";
       font-size: 14px;
@@ -1493,6 +1530,10 @@ color: #000;}
         font-weight: 400;
         line-height: 16px;
         color: #fff; }
+      .footer .four-new-blocks {
+        display: inline-block;
+        margin-right: 50px;
+      }
 
 /*----------- end footer -------------*/
 /*----- sfari style -----*/
@@ -1509,7 +1550,7 @@ html[xmlns*=""] body:last-child .urgent-redemption {
 /*----- 27.02.2018 -----*/
 .main-objects .search-block {
   float: none;
-  width: 100.3%;
+  width: 100%;
   margin-right: 0;
   background: url("../images/bg-search-block-2.jpg");
   background-size: cover;
@@ -1544,7 +1585,7 @@ html[xmlns*=""] body:last-child .urgent-redemption {
   padding: 0; }
 
 .main-objects .search-block section:nth-child(1) {
-  width: 22%; }
+  width: 21%; }
 
 .main-objects .search-block section:nth-child(2) {
   width: 48%; }
@@ -1578,12 +1619,12 @@ html[xmlns*=""] body:last-child .urgent-redemption {
 
 .main-objects .search-block section input[type="text"],
 .main-objects .search-block section:nth-child(2) div input {
-  width: 90px;
+  width: 85px;
   margin-bottom: 0; }
 
 .main-objects .search-block section button {
   margin-bottom: 0;
-  padding: 6px 9px; }
+  padding: 6px 7px; }
 
 .main-objects .photo-short-description {
   display: -webkit-box;
@@ -1610,9 +1651,8 @@ html[xmlns*=""] body:last-child .urgent-redemption {
 .main-objects .photo-short-description .photo-block .photo .label {
   display: block;
   position: absolute;
-  top: 15px;
-  right: 0;
-  width: 70px;
+  top: 0;
+  left: 0;
   height: 25px;
   border-radius: 3px 0px 0px 3px;
   padding: 0;
@@ -1665,6 +1705,25 @@ html[xmlns*=""] body:last-child .urgent-redemption {
   padding: 10px 15px;
   margin-bottom: 10px;
   border: 1px solid #46c2d7; }
+
+.main-objects .photo-short-description .description-block .price-block:nth-child(3) {
+  background: #46c2d7;
+}
+
+.main-objects .photo-short-description .description-block .price-block:nth-child(3) p,
+.main-objects .photo-short-description .description-block .price-block:nth-child(3) span {
+  padding-bottom: 0;
+  color: #fff !important;
+}
+
+.main-objects .photo-short-description .description-block .price-block:nth-child(3) p {
+  color: #cdf3fc !important;
+  font-size: 14px;
+}
+
+.main-objects .photo-short-description .description-block .price-block:nth-child(3) span {
+  font-size: 18px;
+}
 
 .main-objects .photo-short-description .description-block .price-block .total-price {
   line-height: 24px;
@@ -1773,15 +1832,26 @@ html[xmlns*=""] body:last-child .urgent-redemption {
   border-radius: 5px;
   background-size: cover;
   background-position: center;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+       -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+           transition: 0.3s; }
+
+  .new-buildings-list li .photo a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 
 .new-buildings-list li .label {
   display: block;
   position: absolute;
-  top: 15px;
-  right: 0;
-  width: 70px;
-  height: 25px;
+  top: 0;
+  left 0;
   border-radius: 3px 0px 0px 3px;
   padding: 0;
   background-image: url(../images/label-done.png);
@@ -1874,7 +1944,7 @@ html[xmlns*=""] body:last-child .urgent-redemption {
 
 .search-block .box-content > section {
   width: 22%;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 .main-objects .search-block form {
@@ -1882,7 +1952,7 @@ html[xmlns*=""] body:last-child .urgent-redemption {
 }
 
 .main-objects .search-block form section:nth-last-child(1) {
-  width: 35%;
+  width: 36%;
   margin-top: 1px;
 }
 
@@ -1895,7 +1965,7 @@ html[xmlns*=""] body:last-child .urgent-redemption {
 }
 
 .main-objects .search-block form section:nth-last-child(2) {
-  width: 65%;
+  width: 64%;
 }
 
 .main-objects .search-block form section:nth-last-child(2) h4 {
@@ -1950,4 +2020,52 @@ html[xmlns*=""] body:last-child .urgent-redemption {
     font-weight: 700;
     line-height: 18px;
     color: #000;
+}
+
+.main .section-2 .section-2-blocks .urgent-object-block ul {
+  padding: 10px 0;
+}
+
+.main .section-2 .section-2-blocks .urgent-object-block ul li {
+  font-family: "Philosopher";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
+}
+
+.soc-1,
+.soc-2,
+.soc-3 {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.soc-1 img,
+.soc-2 img,
+.soc-3  img{
+  width: auto !important;
+}
+
+.main-contacts .continue {
+  margin-right: 495px;
+}
+
+.main-objects .main-objects-title {
+  padding-top: 20px;
+}
+
+.ya-share2 {
+  margin-bottom: 20px;
+}
+
+.objects-list-block h1 {
+    padding-top: 5px;
+    font-family: "Philosopher";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #0c434d;
+    text-transform: uppercase;
+    padding-bottom: 15px;
 }

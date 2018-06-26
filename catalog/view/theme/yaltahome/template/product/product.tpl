@@ -31,6 +31,10 @@ $i++;
 <!-- start right sidebar -->
 
 <aside class="right-sidebar">
+<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="//yastatic.net/share2/share.js"></script>
+<div class="ya-share2" data-services="collections,vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,blogger,evernote,linkedin,lj,pocket,sinaWeibo,tencentWeibo,tumblr,viber,whatsapp,skype,telegram" data-limit="3"></div>
+
 <h2><?php echo $text_price; ?></h2>
 
 <?php if ($price) { ?>

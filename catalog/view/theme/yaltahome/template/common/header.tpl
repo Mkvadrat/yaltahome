@@ -12,6 +12,8 @@
     <?php if ($keywords) { ?>
     <meta name="keywords" content="<?php echo $keywords; ?>" />
     <?php } ?>
+
+    <meta name="format-detection" content="telephone=no">
 		
 		<!--STYLE-->
 		<link href="catalog/view/theme/yaltahome/css/bootstrap.css" rel="stylesheet">
@@ -180,7 +182,7 @@
                                 <li><a href="<?php echo $plot_link; ?>">Участки</a>
                                 <li><a href="<?php echo $buildings_link; ?>">Новостройки</a>
                                 <li><a href="<?php echo $commercial_link; ?>">Коммерческие</a>
-                                <li><a href="<?php echo $rent_link; ?>">Аренда</a>
+                        <!--        <li><a href="<?php echo $rent_link; ?>">Аренда</a>  -->
                                 <li><a href="<?php echo $elite_link; ?>">Элитная</a>
                             </ul>
                         </header>

@@ -37,8 +37,10 @@ $i++;
 <!-- end header content -->
 
 <div class="col-md-8">
+<div class="form-block">
 <span class="h4-title" id="contact-form">Написать нам</span>
-
+<p>
+		&nbsp;</p>
 <form id="form" class="contacts-form" action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
 
 <label>Ваше имя:</label>
@@ -56,7 +58,7 @@ $i++;
 <?php } ?>
 
 <label>Ваш вопрос:</label>
-<textarea name="enquiry" cols="40" rows="10" style="width: 99%;"><?php echo $enquiry; ?></textarea>
+<textarea name="enquiry" cols="40" rows="10" style="width: 100%;"><?php echo $enquiry; ?></textarea>
 
 <?php if ($error_enquiry) { ?>
 <span class="error"><?php echo $error_enquiry; ?></span>
@@ -73,8 +75,16 @@ $i++;
 
 </form>
 </div>
+<div class="contacts-map">
+<span class="h4-title" id="contact-form">Мы на карте</span>
+<p>
+		&nbsp;</p>
+<div>
+<iframe src="https://yandex.ua/map-widget/v1/-/CBePJTUHcB" width="100%" height="100%" frameborder="0"></iframe></div>
+</div>
+</div>
 
-<p class="continue-block"><a onclick="$('#form').submit();" class="continue">Продолжить</a></p>
+<p class="continue-block"><a onclick="$('#form').submit();" class="continue">Отправить</a></p>
 
 </div>
 

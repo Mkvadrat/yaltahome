@@ -19,20 +19,29 @@
 
             <div class="col-md-12">
                 <footer class="footer">
+                    <div class="four-new-blocks">
+                        <p><small>ИП ЖУКОВ В.В.</small></p>
+                        <p><small>ОГРНИП 317910200137618</small></p>
+                    </div>
+                    <div class="four-new-blocks">
+                        <p><small>skype: <a href="skype:centrestate.ru">centrestate.ru</a></small></p>
+                        <p><small>e-mail: <a href="mailto:info@centrestate.ru">info@centrestate.ru</a></small></p>
+                    </div>
+                    <div class="four-new-blocks">
+                        <p><small>Адрес: Крым, г. Алушта,</small></p>
+                        <p><small>ул. Ленина, 27б, 2 этаж, офис 2</small></p>
+                    </div>
+                    <div class="four-new-blocks">
+                        <p><small>Все права защищены</small></p>
+                        <p><small>&#169; <a href="centrestate.ru">Centrestate.ru</a></small></p>
+                    </div>
+                    
                     <div class="make-in-M2">
                         <p>
                             <a href="http://mkvadrat.com/">Сделано в</a>
                         </p>
                     </div>
 
-                    <address>
-                        <p>
-                            skype: <a href="skype:<?php echo $skype; ?>"><?php echo $skype; ?></a>
-                            <a href="<?php echo $email; ?>"><?php echo $email; ?></a>
-                        </p>
-                    </address>
-
-                    <p><small>Все права защищены &#169; <a href="Yaltahome.ru">centrestate.ru</a></small></p>
                 </footer>
             </div>
         </div>

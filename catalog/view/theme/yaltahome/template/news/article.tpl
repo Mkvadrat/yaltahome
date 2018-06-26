@@ -30,6 +30,10 @@ $i++;
 
 <!-- end bread crumbs -->
 
+<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="//yastatic.net/share2/share.js"></script>
+<div class="ya-share2" data-services="collections,vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,blogger,evernote,linkedin,lj,pocket,sinaWeibo,tencentWeibo,tumblr,viber,whatsapp,skype,telegram" data-limit="3"></div>
+
 <?php if (isset($news_info)) { ?>
 <h2 class="first-title"><?php echo $heading_title; ?></h2>
 
