@@ -1,14 +1,839 @@
----------- Date: 2018-03-07 14:55:57 ~ IP : 95.213.152.60 ----------
-REQUEST URI : /admin/index.php?route=catalog/information/update&amp;token=4bfba05084b34f72af087c7cc039572f&amp;information_id=25
+---------- Date: 2018-06-27 09:08:59 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=3c377b933c267349fa85df8dbeca9a52
 MOD DETAILS:
-   modFile   : /home/c/cd52622/centrestate/public_html/vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
    id        : Admin Theme - Base 5 Builder - ImpulsePro
    version   : 1.0.4
    vqmver    : 2.0
    author    : Niyi Sodipe - Base5Builder.com
 
-File Name    : admin/view/template/catalog/information_*.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/information.png" alt="" /> <?php echo $heading_title; ?></h1>
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 09:09:04 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=3c377b933c267349fa85df8dbeca9a52&amp;product_id=704
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 12:14:19 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 12:14:57 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=704
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 12:40:19 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 12:40:22 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=849
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 12:40:45 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 12:40:48 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_name=%D0%A0%D0%BE%D1%81%D0%BA%D0%BE%D1%88%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B8%D0%BB%D0%BB%D0%B0%20%D0%B2%20%D0%AF%D0%BB%D1%82%D0%B5%20%D0%B2%20%D0%9C%D0%B0%D1%81%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B5%2C%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%94%D1%83%D0%B1%D0%BA%D0%B8.%20%D0%9F%D0%A0%D0%9E%D0%94%D0%90%D0%9D%D0%9E!
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 12:40:52 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_name=%D0%A0%D0%BE%D1%81%D0%BA%D0%BE%D1%88%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B8%D0%BB%D0%BB%D0%B0%20%D0%B2%20%D0%AF%D0%BB%D1%82%D0%B5%20%D0%B2%20%D0%9C%D0%B0%D1%81%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B5%2C%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%94%D1%83%D0%B1%D0%BA%D0%B8
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 12:40:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_name=%D0%A0%D0%BE%D1%81%D0%BA%D0%BE%D1%88%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B8%D0%BB%D0%BB
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 12:41:10 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 12:44:20 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 13:04:10 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:01:47 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:01:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:01:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:02:26 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:02:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:02:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:02:52 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:02:59 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:03:01 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:03:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:03:13 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:04:40 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:04:43 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:04:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:04:52 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:05:17 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:05:20 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:05:22 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:06:49 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:06:51 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:06:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:07:01 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:07:03 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:08:30 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:08:32 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:08:40 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:08:41 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:08:47 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:08:49 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:08:59 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:09:00 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:20:13 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:20:15 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:20:32 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:20:34 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:21:15 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:21:37 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:22:34 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 14:22:36 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 15:06:43 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 15:06:44 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/update&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;product_id=798&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 15:12:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3&amp;filter_model=96
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2018-06-27 15:12:14 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&amp;token=d02146b98ffd265cbf0b4496ebafe9f3
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\centrestate.loc\vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/product_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/product.png" alt="" /> <?php echo $heading_title; ?></h1>
 
 ----------------------------------------------------------------------
 

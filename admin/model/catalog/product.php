@@ -2,8 +2,18 @@
 class ModelCatalogProduct extends Model {
 	public function addProduct($data) {
         if (!isset($data['points'])) $data['points'] = 0;
+		
+		if($data['upc'] == '2'){
+			$sort_order = '-1';
+		}elseif($data['upc'] == '3'){
+			$sort_order = '-999';
+		}elseif($data['upc'] == '4'){
+			$sort_order = '999'+(int)$data['sort_order'];
+		}else{
+			$sort_order = (int)$data['sort_order'];
+		}
 
-		$this->db->query("INSERT INTO " . DB_PREFIX . "product SET model = '" . $this->db->escape($data['model']) . "', agent = '" . $this->db->escape($data['agent']) . "', sku = '" . $this->db->escape($data['sku']) . "', upc = '" . $this->db->escape($data['upc']) . "', ean = '" . $this->db->escape($data['ean']) . "', quantity = '" . (int)$data['quantity'] . "', subtract = '" . (int)$data['subtract'] . "', date_available = '" . $this->db->escape($data['date_available']) . "', manufacturer_id = '" . (int)$data['manufacturer_id'] . "', price = '" . (float)$data['price'] . "', currency_id = '".(int)$data['currency']."', points = '" . (int)$data['points'] . "', length = '" . (float)$data['length'] . "', length_class_id = '" . (int)$data['length_class_id'] . "', status = '" . (int)$data['status'] . "', sort_order = '" . (int)$data['sort_order'] . "', date_added = NOW()");
+		$this->db->query("INSERT INTO " . DB_PREFIX . "product SET model = '" . $this->db->escape($data['model']) . "', agent = '" . $this->db->escape($data['agent']) . "', sku = '" . $this->db->escape($data['sku']) . "', upc = '" . $this->db->escape($data['upc']) . "', ean = '" . $this->db->escape($data['ean']) . "', quantity = '" . (int)$data['quantity'] . "', subtract = '" . (int)$data['subtract'] . "', date_available = '" . $this->db->escape($data['date_available']) . "', manufacturer_id = '" . (int)$data['manufacturer_id'] . "', price = '" . (float)$data['price'] . "', currency_id = '".(int)$data['currency']."', points = '" . (int)$data['points'] . "', length = '" . (float)$data['length'] . "', length_class_id = '" . (int)$data['length_class_id'] . "', status = '" . (int)$data['status'] . "', sort_order = '" . $sort_order . "', date_added = NOW()");
 		
 		$product_id = $this->db->getLastId();
 		
@@ -139,7 +149,18 @@ class ModelCatalogProduct extends Model {
     }
 	
 	public function editProduct($product_id, $data) {
-		$this->db->query("UPDATE " . DB_PREFIX . "product SET model = '" . $this->db->escape($data['model']) . "', agent = '" . $this->db->escape($data['agent']) . "', sku = '" . $this->db->escape($data['sku']) . "', upc = '" . $this->db->escape($data['upc']) . "', ean = '" . $this->db->escape($data['ean']) . "', quantity = '" . (int)$data['quantity'] . "', subtract = '" . (int)$data['subtract'] . "', date_available = '" . $this->db->escape($data['date_available']) . "', manufacturer_id = '" . (int)$data['manufacturer_id'] . "', price = '" . (float)$data['price'] . "', currency_id = '".(int)$data['currency']."', length_class_id = '" . (int)$data['length_class_id'] . "', status = '" . (int)$data['status'] . "', sort_order = '" . (int)$data['sort_order'] . "', date_modified = NOW() WHERE product_id = '" . (int)$product_id . "'");
+		
+		if($data['upc'] == '2'){
+			$sort_order = '-1';
+		}elseif($data['upc'] == '3'){
+			$sort_order = '-999';
+		}elseif($data['upc'] == '4'){
+			$sort_order = '999'+(int)$data['sort_order'];
+		}else{
+			$sort_order = (int)$data['sort_order'];
+		}
+		
+		$this->db->query("UPDATE " . DB_PREFIX . "product SET model = '" . $this->db->escape($data['model']) . "', agent = '" . $this->db->escape($data['agent']) . "', sku = '" . $this->db->escape($data['sku']) . "', upc = '" . $this->db->escape($data['upc']) . "', ean = '" . $this->db->escape($data['ean']) . "', quantity = '" . (int)$data['quantity'] . "', subtract = '" . (int)$data['subtract'] . "', date_available = '" . $this->db->escape($data['date_available']) . "', manufacturer_id = '" . (int)$data['manufacturer_id'] . "', price = '" . (float)$data['price'] . "', currency_id = '".(int)$data['currency']."', length_class_id = '" . (int)$data['length_class_id'] . "', status = '" . (int)$data['status'] . "', sort_order = '" . $sort_order . "', date_modified = NOW() WHERE product_id = '" . (int)$product_id . "'");
 
 		if (isset($data['image'])) {
 			$this->db->query("UPDATE " . DB_PREFIX . "product SET image = '" . $this->db->escape(html_entity_decode($data['image'], ENT_QUOTES, 'UTF-8')) . "' WHERE product_id = '" . (int)$product_id . "'");
